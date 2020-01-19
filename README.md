@@ -79,6 +79,15 @@ REST Assured supports any HTTP method but has explicit support for *POST*, *GET*
 ## Need Reporting ? Extent Reports Provides you Excellect way of Reporting
 ![](Readmeimages/rest.png)
 ![](Readmeimages/rest1.png)
+
+## Need to check Mandatory fileds in API?
+```java
+public void Verify_JSON_Data(String Response,String data)
+
+Response--> Our API JSON Response
+data --> The data need to checked weather it is present or not inside JSON.
+//The above method present inside the project is used to split JSON and JSON Array weather the Mandatory field is Present or Not and give you report inside Extent reports weather it is pass or Fail.
+```
 ## Documentation
 
 * [Getting started](http://rest-assured.io/)
