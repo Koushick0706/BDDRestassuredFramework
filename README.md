@@ -77,8 +77,12 @@ public static void setResponse_content(String response_content) {
 REST Assured supports any HTTP method but has explicit support for *POST*, *GET*, *PUT*, *DELETE*, *OPTIONS*, *PATCH* and *HEAD* and includes specifying and validating e.g. parameters, headers, cookies and body easily.
 
 ## Need Reporting ? Extent Reports Provides you Excellect way of Reporting
+<<<<<<< HEAD
 ![](‪Readmeimages\rest.png)
 ![](‪Readmeimages\rest1.png)
+=======
+![](Readmeimages/rest.png)
+>>>>>>> 29f1fc6ebd35c7f84e8f2f537e7594d020559c2b
 ## Documentation
 
 * [Getting started](http://rest-assured.io/)
