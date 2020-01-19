@@ -1,0 +1,40 @@
+-----------------------Getting Request data--------------------------
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Koushick",
+    "job": "Test Engineer"
+}
+-----------------------Getting Response data--------------------------
+HTTP/1.1 200 OK
+Date: Sat, 18 Jan 2020 12:22:57 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dd241dd32d73327cccba7876fb1257cc41579350177; expires=Mon, 17-Feb-20 12:22:57 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"50-gSw7ytMqRniuaRudULnjMRymR4Y"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 55708990ac4ace1b-LHR
+Content-Encoding: gzip
+
+{
+    "name": "Koushick",
+    "job": "Test Engineer",
+    "updatedAt": "2020-01-18T12:22:57.414Z"
+}

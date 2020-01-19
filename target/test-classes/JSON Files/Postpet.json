@@ -1,0 +1,18 @@
+{
+  "id": 1500,
+  "category": {
+    "id": 1500,
+    "name": "Arun"
+  },
+  "name": "doberman",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 1500,
+      "name": "Arun"
+    }
+  ],
+  "status": "available"
+}
