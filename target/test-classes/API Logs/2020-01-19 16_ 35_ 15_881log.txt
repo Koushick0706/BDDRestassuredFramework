@@ -6,27 +6,27 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Accept=*/*
+Headers:		Authorization=Bearer ibvjqtYKqkC1HlLfBOzp9mvVv_ftD4p6zhu9
+				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 -----------------------Getting Response data--------------------------
 HTTP/1.1 404 Not Found
-Date: Sat, 18 Jan 2020 12:21:55 GMT
+Date: Sun, 19 Jan 2020 11:05:11 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 2
 Connection: keep-alive
-Set-Cookie: __cfduid=d72365df564db003dd10b07e2e0f37d3f1579350115; expires=Mon, 17-Feb-20 12:21:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+Set-Cookie: __cfduid=d82dd950b0c04185ba52d36f86d10430b1579431911; expires=Tue, 18-Feb-20 11:05:11 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 Via: 1.1 vegur
-Cache-Control: max-age=14400
-CF-Cache-Status: EXPIRED
+CF-Cache-Status: BYPASS
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 5570880b68efe5e8-LHR
+CF-RAY: 557855053b39e5ec-LHR
 
 {
     

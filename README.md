@@ -78,6 +78,7 @@ REST Assured supports any HTTP method but has explicit support for *POST*, *GET*
 
 ## Need Reporting ? Extent Reports Provides you Excellect way of Reporting
 ![](‪Readmeimages\rest.png)
+![](‪Readmeimages\rest1.png)
 ## Documentation
 
 * [Getting started](http://rest-assured.io/)

@@ -137,12 +137,21 @@ formatter.examples({
       ],
       "line": 30,
       "id": "this-feature-is-to-check-get-api;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;5"
+    },
+    {
+      "cells": [
+        "\"GORestAPI_Get_User\"",
+        "\"Getdata\"",
+        "\"Type\""
+      ],
+      "line": 31,
+      "id": "this-feature-is-to-check-get-api;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;6"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 604500,
+  "duration": 654300,
   "status": "passed"
 });
 formatter.background({
@@ -161,7 +170,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
 });
 formatter.result({
-  "duration": 546955100,
+  "duration": 466305601,
   "status": "passed"
 });
 formatter.scenario({
@@ -266,7 +275,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
 });
 formatter.result({
-  "duration": 940808800,
+  "duration": 1015350500,
   "status": "passed"
 });
 formatter.match({
@@ -283,78 +292,78 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
 });
 formatter.result({
-  "duration": 2807880199,
+  "duration": 2617354000,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 5552379900,
+  "duration": 7146646900,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_status_code()"
 });
 formatter.result({
-  "duration": 2605958100,
+  "duration": 2477226300,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 23600200,
+  "duration": 42931700,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
 });
 formatter.result({
-  "duration": 282911301,
+  "duration": 143300200,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
 });
 formatter.result({
-  "duration": 692800,
+  "duration": 364500,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
 });
 formatter.result({
-  "duration": 2118032100,
+  "duration": 2224534700,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
 });
 formatter.result({
-  "duration": 1636299,
+  "duration": 1239100,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
 });
 formatter.result({
-  "duration": 9952799,
+  "duration": 8114000,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
 });
 formatter.result({
-  "duration": 721800,
+  "duration": 769100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 406714400,
+  "duration": 374675300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 225701,
+  "duration": 234601,
   "status": "passed"
 });
 formatter.background({
@@ -373,7 +382,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
 });
 formatter.result({
-  "duration": 257200,
+  "duration": 185200,
   "status": "passed"
 });
 formatter.scenario({
@@ -478,7 +487,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
 });
 formatter.result({
-  "duration": 62423900,
+  "duration": 63083801,
   "status": "passed"
 });
 formatter.match({
@@ -495,78 +504,78 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
 });
 formatter.result({
-  "duration": 2003350701,
+  "duration": 2003162801,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 5262957701,
+  "duration": 3343996799,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_status_code()"
 });
 formatter.result({
-  "duration": 2253736600,
+  "duration": 2231841000,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 97500,
+  "duration": 73900,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
 });
 formatter.result({
-  "duration": 126189500,
+  "duration": 116858901,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
 });
 formatter.result({
-  "duration": 801400,
+  "duration": 731200,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
 });
 formatter.result({
-  "duration": 2160750100,
+  "duration": 2199060899,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
 });
 formatter.result({
-  "duration": 2094299,
+  "duration": 1943501,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
 });
 formatter.result({
-  "duration": 6364999,
+  "duration": 8076701,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
 });
 formatter.result({
-  "duration": 296700,
+  "duration": 368799,
   "status": "passed"
 });
 formatter.after({
-  "duration": 110471300,
+  "duration": 69697999,
   "status": "passed"
 });
 formatter.before({
-  "duration": 190301,
+  "duration": 190000,
   "status": "passed"
 });
 formatter.background({
@@ -585,7 +594,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
 });
 formatter.result({
-  "duration": 177000,
+  "duration": 238599,
   "status": "passed"
 });
 formatter.scenario({
@@ -690,7 +699,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
 });
 formatter.result({
-  "duration": 91702000,
+  "duration": 54612700,
   "status": "passed"
 });
 formatter.match({
@@ -707,78 +716,78 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
 });
 formatter.result({
-  "duration": 2003517199,
+  "duration": 2001645500,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 3890943800,
+  "duration": 4953364300,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_status_code()"
 });
 formatter.result({
-  "duration": 2215634599,
+  "duration": 2254963800,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 1754200,
+  "duration": 473701,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
 });
 formatter.result({
-  "duration": 113308601,
+  "duration": 89866800,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
 });
 formatter.result({
-  "duration": 434199,
+  "duration": 315100,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
 });
 formatter.result({
-  "duration": 2097005200,
+  "duration": 2096522900,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
 });
 formatter.result({
-  "duration": 1217300,
+  "duration": 1801101,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
 });
 formatter.result({
-  "duration": 12973000,
+  "duration": 15239300,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
 });
 formatter.result({
-  "duration": 648700,
+  "duration": 475599,
   "status": "passed"
 });
 formatter.after({
-  "duration": 70747300,
+  "duration": 71032500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 196100,
+  "duration": 41700,
   "status": "passed"
 });
 formatter.background({
@@ -797,7 +806,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
 });
 formatter.result({
-  "duration": 178400,
+  "duration": 164500,
   "status": "passed"
 });
 formatter.scenario({
@@ -902,7 +911,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
 });
 formatter.result({
-  "duration": 63116901,
+  "duration": 68087001,
   "status": "passed"
 });
 formatter.match({
@@ -919,74 +928,286 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
 });
 formatter.result({
-  "duration": 2002922900,
+  "duration": 2002989900,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 3611823799,
+  "duration": 3468196400,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_status_code()"
 });
 formatter.result({
-  "duration": 2210861600,
+  "duration": 2193527700,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 1534699,
+  "duration": 1194900,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
 });
 formatter.result({
-  "duration": 93132100,
+  "duration": 156690199,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
 });
 formatter.result({
-  "duration": 290099,
+  "duration": 554600,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
 });
 formatter.result({
-  "duration": 2100025700,
+  "duration": 2132735800,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
 });
 formatter.result({
-  "duration": 2432800,
+  "duration": 1819300,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
 });
 formatter.result({
-  "duration": 18543001,
+  "duration": 17989600,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
 });
 formatter.result({
-  "duration": 719600,
+  "duration": 658100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 79574300,
+  "duration": 76145000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 260600,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "Creating Extent reports",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 6,
+  "name": "i create the extent report and start a test",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
+});
+formatter.result({
+  "duration": 44100,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 31,
+  "name": "Check if user is able to submit GET API request and Checks The Status Code",
+  "description": "",
+  "id": "this-feature-is-to-check-get-api;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;6",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@All"
+    }
+  ]
+});
+formatter.step({
+  "line": 9,
+  "name": "i start my before scenario block with \"GORestAPI_Get_User\"and\"Getdata\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 10,
+  "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "I submit the GET request as per the data in Excel Worksheet",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 12,
+  "name": "I validate status code",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "I validate mandatory tag in response from Excel Worksheet",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 14,
+  "name": "I Store the Response in the Excel",
+  "keyword": "And "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 16,
+      "value": "#Check if user is able to submit GET API request and Checks StatusLine"
+    }
+  ],
+  "line": 17,
+  "name": "I validate StatusLine of the Response",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
+  "name": "i Store the Status Line in Excel",
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 20,
+      "value": "#Check if user is able to submit GET API request and Checks The Content_Type"
+    }
+  ],
+  "line": 21,
+  "name": "I validate Content-type code",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 22,
+  "name": "i Store all my logs into File",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 23,
+  "name": "i end my After Scenario block",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "GORestAPI_Get_User",
+      "offset": 39
+    },
+    {
+      "val": "Getdata",
+      "offset": 62
+    }
+  ],
+  "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+});
+formatter.result({
+  "duration": 42437800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "serviceBaseURL",
+      "offset": 31
+    },
+    {
+      "val": "Type",
+      "offset": 58
+    }
+  ],
+  "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+});
+formatter.result({
+  "duration": 2006112301,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
+});
+formatter.result({
+  "duration": 3365044500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Rest_Step_def_GET.i_validate_status_code()"
+});
+formatter.result({
+  "duration": 2123403601,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
+});
+formatter.result({
+  "duration": 88885000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+});
+formatter.result({
+  "duration": 110996300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+});
+formatter.result({
+  "duration": 521100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+});
+formatter.result({
+  "duration": 2087048300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+});
+formatter.result({
+  "duration": 2223400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+});
+formatter.result({
+  "duration": 17350900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+});
+formatter.result({
+  "duration": 548100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 78818400,
   "status": "passed"
 });
 formatter.uri("POST_Response.feature");
@@ -1133,7 +1354,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 330300,
+  "duration": 193901,
   "status": "passed"
 });
 formatter.scenario({
@@ -1246,7 +1467,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
 });
 formatter.result({
-  "duration": 52843800,
+  "duration": 36361200,
   "status": "passed"
 });
 formatter.match({
@@ -1263,7 +1484,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
 });
 formatter.result({
-  "duration": 2001800000,
+  "duration": 2001940500,
   "status": "passed"
 });
 formatter.match({
@@ -1276,78 +1497,78 @@ formatter.match({
   "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
 });
 formatter.result({
-  "duration": 113708400,
+  "duration": 134206601,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
 });
 formatter.result({
-  "duration": 4148155700,
+  "duration": 3259044701,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_status_code()"
 });
 formatter.result({
-  "duration": 2207124600,
+  "duration": 2154099800,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 5595000,
+  "duration": 6291800,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
 });
 formatter.result({
-  "duration": 111495200,
+  "duration": 83102601,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
 });
 formatter.result({
-  "duration": 615600,
+  "duration": 438600,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
 });
 formatter.result({
-  "duration": 2072427499,
+  "duration": 2077177900,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
 });
 formatter.result({
-  "duration": 1879700,
+  "duration": 1848899,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
 });
 formatter.result({
-  "duration": 19269400,
+  "duration": 14167301,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
 });
 formatter.result({
-  "duration": 814800,
+  "duration": 588101,
   "status": "passed"
 });
 formatter.after({
-  "duration": 70815600,
+  "duration": 63902000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 192801,
+  "duration": 55300,
   "status": "passed"
 });
 formatter.scenario({
@@ -1460,7 +1681,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
 });
 formatter.result({
-  "duration": 61992800,
+  "duration": 52372900,
   "status": "passed"
 });
 formatter.match({
@@ -1477,7 +1698,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
 });
 formatter.result({
-  "duration": 2001456400,
+  "duration": 2002974500,
   "status": "passed"
 });
 formatter.match({
@@ -1490,78 +1711,78 @@ formatter.match({
   "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
 });
 formatter.result({
-  "duration": 5170300,
+  "duration": 3960200,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
 });
 formatter.result({
-  "duration": 3650013100,
+  "duration": 3481237401,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_status_code()"
 });
 formatter.result({
-  "duration": 2168713700,
+  "duration": 2155255800,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 7932201,
+  "duration": 4738499,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
 });
 formatter.result({
-  "duration": 123536500,
+  "duration": 102530700,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
 });
 formatter.result({
-  "duration": 2142200,
+  "duration": 433300,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
 });
 formatter.result({
-  "duration": 2068323701,
+  "duration": 2109456800,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
 });
 formatter.result({
-  "duration": 1780400,
+  "duration": 2082800,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
 });
 formatter.result({
-  "duration": 20149900,
+  "duration": 19556600,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
 });
 formatter.result({
-  "duration": 585999,
+  "duration": 877500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 103185199,
+  "duration": 59185600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 179000,
+  "duration": 126800,
   "status": "passed"
 });
 formatter.scenario({
@@ -1674,7 +1895,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
 });
 formatter.result({
-  "duration": 40080099,
+  "duration": 32273699,
   "status": "passed"
 });
 formatter.match({
@@ -1691,7 +1912,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
 });
 formatter.result({
-  "duration": 2001859700,
+  "duration": 2000174300,
   "status": "passed"
 });
 formatter.match({
@@ -1704,74 +1925,74 @@ formatter.match({
   "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
 });
 formatter.result({
-  "duration": 6381300,
+  "duration": 3121400,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
 });
 formatter.result({
-  "duration": 3853515099,
+  "duration": 3469013500,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_status_code()"
 });
 formatter.result({
-  "duration": 2170698400,
+  "duration": 2137848500,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 1818100,
+  "duration": 1567299,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
 });
 formatter.result({
-  "duration": 57320700,
+  "duration": 60495899,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
 });
 formatter.result({
-  "duration": 411399,
+  "duration": 611900,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
 });
 formatter.result({
-  "duration": 2098343400,
+  "duration": 2140402200,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
 });
 formatter.result({
-  "duration": 2538300,
+  "duration": 1382101,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
 });
 formatter.result({
-  "duration": 17433200,
+  "duration": 14780301,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
 });
 formatter.result({
-  "duration": 563200,
+  "duration": 445800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 65653100,
+  "duration": 65438799,
   "status": "passed"
 });
 formatter.uri("PUT_Response.feature");
@@ -1908,7 +2129,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 228299,
+  "duration": 174900,
   "status": "passed"
 });
 formatter.scenario({
@@ -2021,7 +2242,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
 });
 formatter.result({
-  "duration": 49182200,
+  "duration": 40650100,
   "status": "passed"
 });
 formatter.match({
@@ -2038,7 +2259,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
 });
 formatter.result({
-  "duration": 2002653899,
+  "duration": 2002020800,
   "status": "passed"
 });
 formatter.match({
@@ -2051,78 +2272,78 @@ formatter.match({
   "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
 });
 formatter.result({
-  "duration": 10165900,
+  "duration": 6763701,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_PUT.i_submit_the_PUT_request()"
 });
 formatter.result({
-  "duration": 3326127999,
+  "duration": 6975612700,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_status_code()"
 });
 formatter.result({
-  "duration": 2124529301,
+  "duration": 2130144000,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 2958600,
+  "duration": 1503400,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
 });
 formatter.result({
-  "duration": 84791800,
+  "duration": 66430700,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
 });
 formatter.result({
-  "duration": 856100,
+  "duration": 275201,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
 });
 formatter.result({
-  "duration": 2067327000,
+  "duration": 2048543201,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
 });
 formatter.result({
-  "duration": 402400,
+  "duration": 1411400,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
 });
 formatter.result({
-  "duration": 5494000,
+  "duration": 11650399,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
 });
 formatter.result({
-  "duration": 410800,
+  "duration": 749500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 62887700,
+  "duration": 46817000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 60999,
+  "duration": 48900,
   "status": "passed"
 });
 formatter.scenario({
@@ -2235,7 +2456,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
 });
 formatter.result({
-  "duration": 37689900,
+  "duration": 29450300,
   "status": "passed"
 });
 formatter.match({
@@ -2252,7 +2473,7 @@ formatter.match({
   "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
 });
 formatter.result({
-  "duration": 2002144099,
+  "duration": 2002060200,
   "status": "passed"
 });
 formatter.match({
@@ -2265,74 +2486,74 @@ formatter.match({
   "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
 });
 formatter.result({
-  "duration": 9981200,
+  "duration": 6157600,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_PUT.i_submit_the_PUT_request()"
 });
 formatter.result({
-  "duration": 3713848800,
+  "duration": 4541630399,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_status_code()"
 });
 formatter.result({
-  "duration": 2156424201,
+  "duration": 2149011800,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
 });
 formatter.result({
-  "duration": 2387900,
+  "duration": 1771600,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
 });
 formatter.result({
-  "duration": 45221000,
+  "duration": 90924600,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
 });
 formatter.result({
-  "duration": 336700,
+  "duration": 744700,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
 });
 formatter.result({
-  "duration": 2055323400,
+  "duration": 2066649700,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
 });
 formatter.result({
-  "duration": 444500,
+  "duration": 1624700,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
 });
 formatter.result({
-  "duration": 5033100,
+  "duration": 22261100,
   "status": "passed"
 });
 formatter.match({
   "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
 });
 formatter.result({
-  "duration": 311400,
+  "duration": 1066100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 49859201,
+  "duration": 92327400,
   "status": "passed"
 });
 });

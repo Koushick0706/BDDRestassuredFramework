@@ -1,6 +1,6 @@
 -----------------------Getting Request data--------------------------
-Request method:	POST
-Request URI:	https://reqres.in/api/users
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -12,28 +12,29 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "name": "Koushick Sudharsanam",
-    "job": "QA Engineer"
+    "name": "Koushick",
+    "job": "Test Engineer"
 }
 -----------------------Getting Response data--------------------------
-HTTP/1.1 201 Created
-Date: Sat, 18 Jan 2020 12:22:26 GMT
+HTTP/1.1 200 OK
+Date: Sun, 19 Jan 2020 11:06:26 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 101
+Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d92ac0d778db2fee2eff3f5894979d38a1579350146; expires=Mon, 17-Feb-20 12:22:26 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+Set-Cookie: __cfduid=d278111366765f4278ef96b7954046b131579431986; expires=Tue, 18-Feb-20 11:06:26 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-Etag: W/"65-XNQvq1s3yYcZwdhk7ZOGN8OUPAg"
+Etag: W/"50-qyXxEyx4NTkd25/qC4UQHRYi2vQ"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 557088d20fdfce7b-LHR
+CF-RAY: 557856db0ee6f417-LHR
+Content-Encoding: gzip
 
 {
-    "name": "Koushick Sudharsanam",
-    "job": "QA Engineer",
-    "id": "707",
-    "createdAt": "2020-01-18T12:22:26.912Z"
+    "name": "Koushick",
+    "job": "Test Engineer",
+    "updatedAt": "2020-01-19T11:06:26.432Z"
 }

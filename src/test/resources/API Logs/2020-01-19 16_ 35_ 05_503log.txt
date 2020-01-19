@@ -6,28 +6,29 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Accept=*/*
+Headers:		Authorization=Bearer ibvjqtYKqkC1HlLfBOzp9mvVv_ftD4p6zhu9
+				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 -----------------------Getting Response data--------------------------
 HTTP/1.1 200 OK
-Date: Sat, 18 Jan 2020 12:21:42 GMT
+Date: Sun, 19 Jan 2020 11:04:59 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d188fcd049bf2223309b74eef713c1d3b1579350102; expires=Mon, 17-Feb-20 12:21:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+Set-Cookie: __cfduid=d34014c3e8bf8513d8486bdb46d4d2c471579431899; expires=Tue, 18-Feb-20 11:04:59 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Etag: W/"414-k36Lu9tCb0XMJeh2/UG19C4xbw4"
 Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1365
+Age: 5025
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 557087ba2a05e62c-LHR
+CF-RAY: 557854b8dda5e65c-LHR
 Content-Encoding: gzip
 
 {

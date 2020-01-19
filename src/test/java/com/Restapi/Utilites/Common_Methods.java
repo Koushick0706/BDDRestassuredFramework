@@ -217,7 +217,7 @@ public class Common_Methods {
 	public void GET_request(String uri) throws InterruptedException
 	{
 	            Extent.testStatus("pass", "Passing URI : " + BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI") );
-				BaseclassInitilizer.response =BaseclassInitilizer.httpreq.get(BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI"));
+				BaseclassInitilizer.response =BaseclassInitilizer.httpreq.header("Authorization", "Bearer ibvjqtYKqkC1HlLfBOzp9mvVv_ftD4p6zhu9").get(BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI"));
 				BaseclassInitilizer.logger.info("Passing URI : " + BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI") );
 				setResponse_content(BaseclassInitilizer.response.getBody().asString());
 				BaseclassInitilizer.logger.info("Getting Response Content " + getResponse_content());

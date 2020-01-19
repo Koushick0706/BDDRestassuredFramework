@@ -28,3 +28,4 @@ Given i create the extent report and start a test
     |"RequisAPI_Get_SpecificUser"|"Getdata"|"Type"|
     |"Swagger_Get_Specificpet"|"Getdata"|"Type"|
     |"Swagger_Get_Inventory"|"Getdata"|"Type"|
+    |"GORestAPI_Get_User"|"Getdata"|"Type"|

@@ -6,13 +6,14 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Accept=*/*
+Headers:		Authorization=Bearer ibvjqtYKqkC1HlLfBOzp9mvVv_ftD4p6zhu9
+				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 -----------------------Getting Response data--------------------------
 HTTP/1.1 404 Not Found
-Date: Sat, 18 Jan 2020 12:22:05 GMT
+Date: Sun, 19 Jan 2020 11:05:22 GMT
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 Access-Control-Allow-Headers: Content-Type, api_key, Authorization
