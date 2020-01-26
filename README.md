@@ -1,4 +1,4 @@
-## REST-ASSURED
+## REST-ASSURED BDD Framwork
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.rest-assured/rest-assured/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.rest-assured/rest-assured)
 [![Javadoc](https://javadoc-badge.appspot.com/io.rest-assured/rest-assured.svg)](http://www.javadoc.io/doc/io.rest-assured/rest-assured)
 
@@ -87,6 +87,25 @@ public void Verify_JSON_Data(String Response,String data)
 Response--> Our API JSON Response
 data --> The data need to checked weather it is present or not inside JSON.
 //The above method present inside the project is used to split JSON and JSON Array weather the Mandatory field is Present or Not and give you report inside Extent reports weather it is pass or Fail.
+```
+## Need to Test SOAP or WEBSERVICE ?
+
+```java
+Common_Methods.Get_Instance().ReadXMLFile(arg1);
+
+FOR SOAP :
+ReadXMLFile--> it is used read the XMLfile and post,
+BaseclassInitilizer.httpreq.headers("Content-Type","text/xml");
+BaseclassInitilizer.httpreq.body( ReadXMLFile.toString());
+
+FOR WEBSERVICE:
+To Test  Webserive we have two ways to test,
+1.) Through Java Client
+2.)Webservice Explorer.
+
+Webservice Explorer:
+
+![](Readmeimages/rest2.png)
 ```
 ## Documentation
 
