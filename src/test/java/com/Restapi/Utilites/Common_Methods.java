@@ -1,18 +1,28 @@
 package com.Restapi.Utilites;
 
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+
+import javax.xml.XMLConstants;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.junit.Assert;
+import org.w3c.dom.Document;
+import org.xml.sax.SAXException;
 
 import com.Restapi.DataProvider.DataProvider;
 import com.Restapi.InitilizeBaseConfiguration.BaseclassInitilizer;
@@ -266,6 +276,30 @@ public class Common_Methods {
 	        } catch (ParseException e) {
 	            e.printStackTrace();
 	        }
+	}
+	
+	public void ReadXMLFile(String arg) throws ParserConfigurationException, SAXException, IOException
+	{
+		String xmlfiles = "src/test/resources/XML Files/"+arg;
+		try
+		{
+		StringBuilder sb = new StringBuilder();
+	    try (BufferedReader br = new BufferedReader(new FileReader(xmlfiles))){
+
+	        String sCurrentLine;
+			while (( sCurrentLine = br.readLine()) != null) {
+	            sb.append(sCurrentLine);
+	        }
+
+	    }
+	    BaseclassInitilizer.httpreq.headers("Content-Type","text/xml");
+	    BaseclassInitilizer.httpreq.body( sb.toString());
+		}
+		catch (FileNotFoundException e) {
+          e.printStackTrace();
+      } catch (IOException e) {
+          e.printStackTrace();
+      } 	
 	}
 
 	public static String getResponse_content() {

@@ -91,6 +91,7 @@ public class Extent
 			Assert.assertTrue(true);
 			Thread.sleep(2000);
 			Insidechild.log(Status.INFO, MarkupHelper.createCodeBlock(data, CodeLanguage.JSON));
+			Insidechild.log(Status.INFO, MarkupHelper.createCodeBlock(data, CodeLanguage.XML));
 		}
 		}
 		void configfile() throws IOException

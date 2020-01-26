@@ -8732,3 +8732,545 @@
 2020-01-19 16:36:41 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
 
 2020-01-19 16:36:41 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-24 23:19:13 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-24 23:19:18 INFO  API Testing:212 - Passing URL : https://reqres.in/
+2020-01-24 23:19:28 INFO  API Testing:221 - Passing URI : /api/users?page=2
+2020-01-24 23:19:28 INFO  API Testing:223 - Getting Response Content {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
+2020-01-24 23:19:28 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-24 23:19:31 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-24 23:19:33 INFO  API Testing:128 - The Content_type is : application/json; charset=utf-8
+2020-01-24 23:19:33 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-24 23:19:33 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-24 23:19:34 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-24 23:19:34 INFO  API Testing:212 - Passing URL : https://reqres.in/
+2020-01-24 23:19:41 INFO  API Testing:221 - Passing URI : /api/users/23
+2020-01-24 23:19:41 INFO  API Testing:223 - Getting Response Content {}
+2020-01-24 23:19:41 INFO  API Testing:100 - Getting Status Code : 404
+2020-01-24 23:19:43 INFO  API Testing:145 - Getting Status Line HTTP/1.1 404 Not Found
+2020-01-24 23:19:45 INFO  API Testing:128 - The Content_type is : application/json; charset=utf-8
+2020-01-24 23:19:45 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-24 23:19:45 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-24 23:19:45 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-24 23:19:45 INFO  API Testing:212 - Passing URL : https://petstore.swagger.io/v2
+2020-01-24 23:19:51 INFO  API Testing:221 - Passing URI : /pet/101
+2020-01-24 23:19:51 INFO  API Testing:223 - Getting Response Content {"code":1,"type":"error","message":"Pet not found"}
+2020-01-24 23:19:51 INFO  API Testing:100 - Getting Status Code : 404
+2020-01-24 23:19:54 INFO  API Testing:145 - Getting Status Line HTTP/1.1 404 Not Found
+2020-01-24 23:19:56 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-24 23:19:56 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-24 23:19:56 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-24 23:19:56 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-24 23:19:56 INFO  API Testing:212 - Passing URL : https://petstore.swagger.io/v2
+2020-01-24 23:20:02 INFO  API Testing:221 - Passing URI : /store/order/15
+2020-01-24 23:20:02 INFO  API Testing:223 - Getting Response Content {"id":15,"petId":45,"quantity":2,"shipDate":"2020-01-18T11:29:05.242+0000","status":"placed","complete":true}
+2020-01-24 23:20:02 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-24 23:20:04 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-24 23:20:06 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-24 23:20:06 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-24 23:20:06 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-24 23:20:06 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-24 23:20:06 INFO  API Testing:212 - Passing URL : https://gorest.co.in
+2020-01-24 23:20:13 INFO  API Testing:221 - Passing URI : /public-api/users
+2020-01-24 23:20:13 INFO  API Testing:223 - Getting Response Content {"_meta":{"success":false,"code":401,"message":"Authentication failed."},"result":{"name":"Unauthorized","message":"Your request was made with invalid credentials.","code":0,"status":401}}
+2020-01-24 23:20:13 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-24 23:20:15 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-24 23:20:17 INFO  API Testing:128 - The Content_type is : application/json; charset=UTF-8
+2020-01-24 23:20:17 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-24 23:20:17 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-24 23:20:17 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-24 23:20:17 INFO  API Testing:212 - Passing URL : https://reqres.in/
+2020-01-24 23:20:24 INFO  API Testing:230 - Passing URI : /api/users
+2020-01-24 23:20:24 INFO  API Testing:232 - Getting Response Content {"name":"Koushick Sudharsanam","job":"QA Engineer","id":"270","createdAt":"2020-01-24T17:50:24.831Z"}
+2020-01-24 23:20:24 INFO  API Testing:100 - Getting Status Code : 201
+2020-01-24 23:20:26 INFO  API Testing:145 - Getting Status Line HTTP/1.1 201 Created
+2020-01-24 23:20:28 INFO  API Testing:128 - The Content_type is : application/json; charset=utf-8
+2020-01-24 23:20:28 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-24 23:20:28 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-24 23:20:28 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-24 23:20:28 INFO  API Testing:212 - Passing URL : https://petstore.swagger.io/v2
+2020-01-24 23:20:34 INFO  API Testing:230 - Passing URI : /pet
+2020-01-24 23:20:34 INFO  API Testing:232 - Getting Response Content {"id":1500,"category":{"id":1500,"name":"Arun"},"name":"doberman","photoUrls":["string"],"tags":[{"id":1500,"name":"Arun"}],"status":"available"}
+2020-01-24 23:20:34 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-24 23:20:36 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-24 23:20:38 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-24 23:20:38 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-24 23:20:38 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-24 23:20:39 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-24 23:20:39 INFO  API Testing:212 - Passing URL : https://petstore.swagger.io/v2
+2020-01-24 23:20:44 INFO  API Testing:230 - Passing URI : /store/order
+2020-01-24 23:20:44 INFO  API Testing:232 - Getting Response Content {"id":15,"petId":45,"quantity":2,"shipDate":"2020-01-18T11:29:05.242+0000","status":"placed","complete":true}
+2020-01-24 23:20:44 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-24 23:20:46 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-24 23:20:49 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-24 23:20:49 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-24 23:20:49 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-24 23:20:49 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-24 23:20:49 INFO  API Testing:212 - Passing URL : https://reqres.in/
+2020-01-24 23:20:56 INFO  API Testing:239 - Passing URI : /api/users/2
+2020-01-24 23:20:56 INFO  API Testing:241 - Getting Response Content {"name":"Koushick","job":"Test Engineer","updatedAt":"2020-01-24T17:50:56.998Z"}
+2020-01-24 23:20:56 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-24 23:20:58 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-24 23:21:00 INFO  API Testing:128 - The Content_type is : application/json; charset=utf-8
+2020-01-24 23:21:00 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-24 23:21:00 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-24 23:21:00 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-24 23:21:01 INFO  API Testing:212 - Passing URL : https://petstore.swagger.io/v2
+2020-01-24 23:21:07 INFO  API Testing:239 - Passing URI : /pet
+2020-01-24 23:21:07 INFO  API Testing:241 - Getting Response Content {"id":11,"category":{"id":11,"name":"string"},"name":"Dineshkumar","photoUrls":["string"],"tags":[{"id":11,"name":"string"}],"status":"available"}
+2020-01-24 23:21:07 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-24 23:21:10 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-24 23:21:12 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-24 23:21:12 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-24 23:21:12 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-25 00:20:55 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-25 00:20:57 INFO  API Testing:221 - Passing URL : http://www.dneonline.com/
+2020-01-25 00:21:07 INFO  API Testing:239 - Passing URI : /calculator.asmx
+2020-01-25 00:21:07 INFO  API Testing:241 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><soap:Fault><soap:Code><soap:Value>soap:Receiver</soap:Value></soap:Code><soap:Reason><soap:Text xml:lang="en">System.Web.Services.Protocols.SoapException: Server was unable to process request. ---&gt; System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Web.Services.Protocols.SoapServerProtocol.SoapEnvelopeReader.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Web.Services.Protocols.SoapServerProtocol.SoapEnvelopeReader.MoveToContent()
+   at System.Web.Services.Protocols.SoapServerProtocolHelper.GetRequestElement()
+   at System.Web.Services.Protocols.Soap12ServerProtocolHelper.RouteRequest()
+   at System.Web.Services.Protocols.SoapServerProtocol.RouteRequest(SoapServerMessage message)
+   at System.Web.Services.Protocols.SoapServerProtocol.Initialize()
+   at System.Web.Services.Protocols.ServerProtocol.SetContext(Type type, HttpContext context, HttpRequest request, HttpResponse response)
+   at System.Web.Services.Protocols.ServerProtocolFactory.Create(Type type, HttpContext context, HttpRequest request, HttpResponse response, Boolean&amp; abortProcessing)
+   --- End of inner exception stack trace ---</soap:Text></soap:Reason><soap:Detail /></soap:Fault></soap:Body></soap:Envelope>
+2020-01-25 00:21:07 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-25 00:21:07 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-25 00:21:08 INFO  API Testing:221 - Passing URL : http://www.dneonline.com/
+2020-01-25 00:21:12 INFO  API Testing:239 - Passing URI : /calculator.asmx
+2020-01-25 00:21:12 INFO  API Testing:241 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><soap:Fault><soap:Code><soap:Value>soap:Receiver</soap:Value></soap:Code><soap:Reason><soap:Text xml:lang="en">System.Web.Services.Protocols.SoapException: Server was unable to process request. ---&gt; System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Web.Services.Protocols.SoapServerProtocol.SoapEnvelopeReader.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Web.Services.Protocols.SoapServerProtocol.SoapEnvelopeReader.MoveToContent()
+   at System.Web.Services.Protocols.SoapServerProtocolHelper.GetRequestElement()
+   at System.Web.Services.Protocols.Soap12ServerProtocolHelper.RouteRequest()
+   at System.Web.Services.Protocols.SoapServerProtocol.RouteRequest(SoapServerMessage message)
+   at System.Web.Services.Protocols.SoapServerProtocol.Initialize()
+   at System.Web.Services.Protocols.ServerProtocol.SetContext(Type type, HttpContext context, HttpRequest request, HttpResponse response)
+   at System.Web.Services.Protocols.ServerProtocolFactory.Create(Type type, HttpContext context, HttpRequest request, HttpResponse response, Boolean&amp; abortProcessing)
+   --- End of inner exception stack trace ---</soap:Text></soap:Reason><soap:Detail /></soap:Fault></soap:Body></soap:Envelope>
+2020-01-25 00:21:12 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-25 00:30:14 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-25 00:30:16 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-25 00:30:22 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-25 00:30:22 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>30</AddResult></AddResponse></soap:Body></soap:Envelope>
+2020-01-25 00:30:22 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-25 00:30:23 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-25 00:30:23 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-25 00:30:28 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-25 00:30:28 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>10</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+2020-01-25 00:30:28 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-25 00:35:57 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-25 00:35:58 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-25 00:36:09 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-25 00:36:09 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>30</AddResult></AddResponse></soap:Body></soap:Envelope>
+2020-01-25 00:36:09 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-25 00:36:10 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-25 00:36:10 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-25 00:36:15 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-25 00:36:15 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>10</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+2020-01-25 00:36:15 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-25 00:38:16 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-25 00:38:18 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-25 00:38:26 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-25 00:38:26 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>30</AddResult></AddResponse></soap:Body></soap:Envelope>
+2020-01-25 00:38:26 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-25 00:38:29 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-25 00:38:30 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-25 00:38:30 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-25 00:38:35 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-25 00:38:35 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>10</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+2020-01-25 00:38:35 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-25 00:38:37 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-25 00:47:11 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-25 00:47:12 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-25 00:47:22 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-25 00:47:22 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>30</AddResult></AddResponse></soap:Body></soap:Envelope>
+2020-01-25 00:47:22 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-25 00:47:25 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-25 00:47:27 INFO  API Testing:128 - The Content_type is : text/xml; charset=utf-8
+2020-01-25 00:47:27 INFO  API Testing:130 - Getting Excel Data : text/xml; charset=utf-8
+2020-01-25 00:47:27 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-25 00:47:28 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-25 00:47:28 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-25 00:47:33 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-25 00:47:33 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>10</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+2020-01-25 00:47:33 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-25 00:47:35 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-25 00:47:37 INFO  API Testing:128 - The Content_type is : text/xml; charset=utf-8
+2020-01-25 00:47:37 INFO  API Testing:130 - Getting Excel Data : text/xml; charset=utf-8
+2020-01-25 00:47:37 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-25 00:47:37 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-25 00:47:37 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-25 00:47:42 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-25 00:47:42 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><DivideResponse xmlns="http://tempuri.org/"><DivideResult>4</DivideResult></DivideResponse></soap:Body></soap:Envelope>
+2020-01-25 00:47:42 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-25 00:47:44 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-25 00:47:46 INFO  API Testing:128 - The Content_type is : text/xml; charset=utf-8
+2020-01-25 00:47:46 INFO  API Testing:130 - Getting Excel Data : 
+2020-01-25 00:47:46 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-25 00:47:46 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-25 00:47:47 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-25 00:47:51 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-25 00:47:51 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><MultiplyResponse xmlns="http://tempuri.org/"><MultiplyResult>40</MultiplyResult></MultiplyResponse></soap:Body></soap:Envelope>
+2020-01-25 00:47:51 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-25 00:47:54 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-25 00:47:56 INFO  API Testing:128 - The Content_type is : text/xml; charset=utf-8
+2020-01-25 00:47:56 INFO  API Testing:130 - Getting Excel Data : 
+2020-01-25 00:47:56 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:01:58 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:02:00 INFO  API Testing:222 - Passing URL : https://reqres.in/
+2020-01-26 01:02:08 INFO  API Testing:231 - Passing URI : /api/users?page=2
+2020-01-26 01:02:08 INFO  API Testing:233 - Getting Response Content {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
+2020-01-26 01:02:08 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 01:02:11 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 01:02:13 INFO  API Testing:128 - The Content_type is : application/json; charset=utf-8
+2020-01-26 01:02:13 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 01:02:13 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:02:13 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:02:13 INFO  API Testing:222 - Passing URL : https://reqres.in/
+2020-01-26 01:02:18 INFO  API Testing:231 - Passing URI : /api/users/23
+2020-01-26 01:02:18 INFO  API Testing:233 - Getting Response Content {}
+2020-01-26 01:02:18 INFO  API Testing:100 - Getting Status Code : 404
+2020-01-26 01:02:21 INFO  API Testing:145 - Getting Status Line HTTP/1.1 404 Not Found
+2020-01-26 01:02:23 INFO  API Testing:128 - The Content_type is : application/json; charset=utf-8
+2020-01-26 01:02:23 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 01:02:23 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:02:23 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:02:23 INFO  API Testing:222 - Passing URL : https://petstore.swagger.io/v2
+2020-01-26 01:02:29 INFO  API Testing:231 - Passing URI : /pet/101
+2020-01-26 01:02:29 INFO  API Testing:233 - Getting Response Content {"code":1,"type":"error","message":"Pet not found"}
+2020-01-26 01:02:29 INFO  API Testing:100 - Getting Status Code : 404
+2020-01-26 01:02:31 INFO  API Testing:145 - Getting Status Line HTTP/1.1 404 Not Found
+2020-01-26 01:02:33 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-26 01:02:33 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 01:02:33 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:02:34 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:02:34 INFO  API Testing:222 - Passing URL : https://petstore.swagger.io/v2
+2020-01-26 01:02:39 INFO  API Testing:231 - Passing URI : /store/order/15
+2020-01-26 01:02:39 INFO  API Testing:233 - Getting Response Content {"id":15,"petId":45,"quantity":2,"shipDate":"2020-01-18T11:29:05.242+0000","status":"placed","complete":true}
+2020-01-26 01:02:39 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 01:02:41 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 01:02:43 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-26 01:02:43 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 01:02:43 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:02:44 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:02:44 INFO  API Testing:222 - Passing URL : https://gorest.co.in
+2020-01-26 01:02:50 INFO  API Testing:231 - Passing URI : /public-api/users
+2020-01-26 01:02:50 INFO  API Testing:233 - Getting Response Content {"_meta":{"success":false,"code":401,"message":"Authentication failed."},"result":{"name":"Unauthorized","message":"Your request was made with invalid credentials.","code":0,"status":401}}
+2020-01-26 01:02:50 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 01:02:53 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 01:02:55 INFO  API Testing:128 - The Content_type is : application/json; charset=UTF-8
+2020-01-26 01:02:55 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 01:02:55 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:02:55 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:02:55 INFO  API Testing:222 - Passing URL : https://reqres.in/
+2020-01-26 01:03:00 INFO  API Testing:240 - Passing URI : /api/users
+2020-01-26 01:03:00 INFO  API Testing:242 - Getting Response Content {"name":"Koushick Sudharsanam","job":"QA Engineer","id":"266","createdAt":"2020-01-25T19:33:00.935Z"}
+2020-01-26 01:03:00 INFO  API Testing:100 - Getting Status Code : 201
+2020-01-26 01:03:02 INFO  API Testing:145 - Getting Status Line HTTP/1.1 201 Created
+2020-01-26 01:03:04 INFO  API Testing:128 - The Content_type is : application/json; charset=utf-8
+2020-01-26 01:03:04 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 01:03:04 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:03:05 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:03:05 INFO  API Testing:222 - Passing URL : https://petstore.swagger.io/v2
+2020-01-26 01:03:10 INFO  API Testing:240 - Passing URI : /pet
+2020-01-26 01:03:10 INFO  API Testing:242 - Getting Response Content {"id":1500,"category":{"id":1500,"name":"Arun"},"name":"doberman","photoUrls":["string"],"tags":[{"id":1500,"name":"Arun"}],"status":"available"}
+2020-01-26 01:03:10 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 01:03:12 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 01:03:14 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-26 01:03:14 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 01:03:14 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:03:15 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:03:15 INFO  API Testing:222 - Passing URL : https://petstore.swagger.io/v2
+2020-01-26 01:03:20 INFO  API Testing:240 - Passing URI : /store/order
+2020-01-26 01:03:20 INFO  API Testing:242 - Getting Response Content {"id":15,"petId":45,"quantity":2,"shipDate":"2020-01-18T11:29:05.242+0000","status":"placed","complete":true}
+2020-01-26 01:03:20 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 01:03:22 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 01:03:24 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-26 01:03:24 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 01:03:24 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:03:25 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:03:25 INFO  API Testing:222 - Passing URL : https://reqres.in/
+2020-01-26 01:03:30 INFO  API Testing:249 - Passing URI : /api/users/2
+2020-01-26 01:03:30 INFO  API Testing:251 - Getting Response Content {"name":"Koushick","job":"Test Engineer","updatedAt":"2020-01-25T19:33:30.578Z"}
+2020-01-26 01:03:30 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 01:03:32 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 01:03:34 INFO  API Testing:128 - The Content_type is : application/json; charset=utf-8
+2020-01-26 01:03:34 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 01:03:34 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:03:34 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:03:34 INFO  API Testing:222 - Passing URL : https://petstore.swagger.io/v2
+2020-01-26 01:03:40 INFO  API Testing:249 - Passing URI : /pet
+2020-01-26 01:03:40 INFO  API Testing:251 - Getting Response Content {"id":11,"category":{"id":11,"name":"string"},"name":"Dineshkumar","photoUrls":["string"],"tags":[{"id":11,"name":"string"}],"status":"available"}
+2020-01-26 01:03:40 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 01:03:42 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 01:03:44 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-26 01:03:44 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 01:03:44 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:03:44 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:03:44 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-26 01:03:49 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-26 01:03:49 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>30</AddResult></AddResponse></soap:Body></soap:Envelope>
+2020-01-26 01:03:49 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 01:03:51 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 01:03:53 INFO  API Testing:128 - The Content_type is : text/xml; charset=utf-8
+2020-01-26 01:03:53 INFO  API Testing:130 - Getting Excel Data : text/xml; charset=utf-8
+2020-01-26 01:03:53 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:03:53 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:03:53 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-26 01:03:58 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-26 01:03:58 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>10</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+2020-01-26 01:03:58 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 01:04:00 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 01:04:02 INFO  API Testing:128 - The Content_type is : text/xml; charset=utf-8
+2020-01-26 01:04:02 INFO  API Testing:130 - Getting Excel Data : text/xml; charset=utf-8
+2020-01-26 01:04:02 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:04:02 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:04:02 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-26 01:04:07 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-26 01:04:07 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><DivideResponse xmlns="http://tempuri.org/"><DivideResult>4</DivideResult></DivideResponse></soap:Body></soap:Envelope>
+2020-01-26 01:04:07 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 01:04:09 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 01:04:11 INFO  API Testing:128 - The Content_type is : text/xml; charset=utf-8
+2020-01-26 01:04:11 INFO  API Testing:130 - Getting Excel Data : 
+2020-01-26 01:04:11 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:04:11 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:04:11 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-26 01:04:16 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-26 01:04:16 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><MultiplyResponse xmlns="http://tempuri.org/"><MultiplyResult>40</MultiplyResult></MultiplyResponse></soap:Body></soap:Envelope>
+2020-01-26 01:04:16 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 01:04:18 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 01:04:20 INFO  API Testing:128 - The Content_type is : text/xml; charset=utf-8
+2020-01-26 01:04:20 INFO  API Testing:130 - Getting Excel Data : 
+2020-01-26 01:04:20 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 01:30:41 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 01:30:42 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2020-01-26 01:30:43 INFO  API Testing:39 - The add Result is : 30
+2020-01-26 01:30:43 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 16:41:19 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 16:41:44 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2020-01-26 16:44:27 INFO  API Testing:39 - The add Result is : 30
+2020-01-26 16:44:43 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 16:50:00 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 16:50:02 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2020-01-26 16:50:03 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 16:56:15 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 16:56:16 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2020-01-26 16:56:16 INFO  API Testing:30 - http://www.dneonline.com/calculator.asmx
+2020-01-26 16:56:18 INFO  API Testing:40 - The add Result is : 30
+2020-01-26 16:56:18 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 16:57:07 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 16:57:08 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2020-01-26 16:57:08 INFO  API Testing:30 - org.apache.axis.client.Service$HandlerRegistryImpl@46ab18da
+2020-01-26 16:57:09 INFO  API Testing:40 - The add Result is : 30
+2020-01-26 16:57:09 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 16:57:59 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 16:58:00 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2020-01-26 16:58:00 INFO  API Testing:30 - CalculatorSoap
+2020-01-26 16:58:02 INFO  API Testing:40 - The add Result is : 30
+2020-01-26 16:58:02 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 16:58:26 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 16:58:27 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2020-01-26 16:58:27 INFO  API Testing:30 - true
+2020-01-26 16:58:29 INFO  API Testing:40 - The add Result is : 30
+2020-01-26 16:58:29 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 16:59:18 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 16:59:19 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2020-01-26 16:59:19 INFO  API Testing:30 - Reference Class Name: com.calculatorservice.CalculatorLocator
+Type: service classname
+Content: com.calculatorservice.CalculatorLocator
+
+2020-01-26 16:59:21 INFO  API Testing:40 - The add Result is : 30
+2020-01-26 16:59:21 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 17:01:32 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 17:01:33 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2020-01-26 17:01:33 INFO  API Testing:30 - 
+2020-01-26 17:01:34 INFO  API Testing:40 - The add Result is : 30
+2020-01-26 17:01:34 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 17:07:31 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 17:07:33 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2020-01-26 17:47:28 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 17:47:29 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2020-01-26 17:47:34 INFO  API Testing:50 - The add Result is : 30
+2020-01-26 17:47:34 INFO  API Testing:51 - The sub Result is : -10
+2020-01-26 17:47:34 INFO  API Testing:52 - The mul Result is : 40
+2020-01-26 17:47:34 INFO  API Testing:53 - The div Result is : 4
+2020-01-26 17:47:42 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:18:29 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:18:30 INFO  API Testing:222 - Passing URL : https://reqres.in/
+2020-01-26 18:18:39 INFO  API Testing:231 - Passing URI : /api/users?page=2
+2020-01-26 18:18:39 INFO  API Testing:233 - Getting Response Content {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
+2020-01-26 18:18:39 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 18:18:41 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 18:18:44 INFO  API Testing:128 - The Content_type is : application/json; charset=utf-8
+2020-01-26 18:18:44 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 18:18:44 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:18:44 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:18:44 INFO  API Testing:222 - Passing URL : https://reqres.in/
+2020-01-26 18:18:51 INFO  API Testing:231 - Passing URI : /api/users/23
+2020-01-26 18:18:51 INFO  API Testing:233 - Getting Response Content {}
+2020-01-26 18:18:51 INFO  API Testing:100 - Getting Status Code : 404
+2020-01-26 18:18:53 INFO  API Testing:145 - Getting Status Line HTTP/1.1 404 Not Found
+2020-01-26 18:18:55 INFO  API Testing:128 - The Content_type is : application/json; charset=utf-8
+2020-01-26 18:18:55 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 18:18:55 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:18:55 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:18:55 INFO  API Testing:222 - Passing URL : https://petstore.swagger.io/v2
+2020-01-26 18:19:01 INFO  API Testing:231 - Passing URI : /pet/101
+2020-01-26 18:19:01 INFO  API Testing:233 - Getting Response Content {"id":101,"category":{"id":1,"name":"dog"},"name":"seven","photoUrls":["myDoggie.phone.url"],"tags":[{"id":2,"name":"wildDog"}],"status":"availabe"}
+2020-01-26 18:19:01 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 18:19:03 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 18:19:06 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-26 18:19:06 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 18:19:06 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:19:06 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:19:06 INFO  API Testing:222 - Passing URL : https://petstore.swagger.io/v2
+2020-01-26 18:19:11 INFO  API Testing:231 - Passing URI : /store/order/15
+2020-01-26 18:19:11 INFO  API Testing:233 - Getting Response Content {"id":15,"petId":45,"quantity":2,"shipDate":"2020-01-18T11:29:05.242+0000","status":"placed","complete":true}
+2020-01-26 18:19:11 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 18:19:13 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 18:19:16 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-26 18:19:16 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 18:19:16 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:19:16 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:19:16 INFO  API Testing:222 - Passing URL : https://gorest.co.in
+2020-01-26 18:19:21 INFO  API Testing:231 - Passing URI : /public-api/users
+2020-01-26 18:19:21 INFO  API Testing:233 - Getting Response Content {"_meta":{"success":false,"code":401,"message":"Authentication failed."},"result":{"name":"Unauthorized","message":"Your request was made with invalid credentials.","code":0,"status":401}}
+2020-01-26 18:19:21 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 18:19:23 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 18:19:25 INFO  API Testing:128 - The Content_type is : application/json; charset=UTF-8
+2020-01-26 18:19:25 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 18:19:25 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:19:25 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:19:25 INFO  API Testing:222 - Passing URL : https://reqres.in/
+2020-01-26 18:19:31 INFO  API Testing:240 - Passing URI : /api/users
+2020-01-26 18:19:31 INFO  API Testing:242 - Getting Response Content {"name":"Koushick Sudharsanam","job":"QA Engineer","id":"721","createdAt":"2020-01-26T12:49:31.514Z"}
+2020-01-26 18:19:31 INFO  API Testing:100 - Getting Status Code : 201
+2020-01-26 18:19:33 INFO  API Testing:145 - Getting Status Line HTTP/1.1 201 Created
+2020-01-26 18:19:35 INFO  API Testing:128 - The Content_type is : application/json; charset=utf-8
+2020-01-26 18:19:35 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 18:19:35 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:19:35 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:19:35 INFO  API Testing:222 - Passing URL : https://petstore.swagger.io/v2
+2020-01-26 18:19:41 INFO  API Testing:240 - Passing URI : /pet
+2020-01-26 18:19:41 INFO  API Testing:242 - Getting Response Content {"id":1500,"category":{"id":1500,"name":"Arun"},"name":"doberman","photoUrls":["string"],"tags":[{"id":1500,"name":"Arun"}],"status":"available"}
+2020-01-26 18:19:41 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 18:19:43 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 18:19:45 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-26 18:19:45 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 18:19:45 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:19:45 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:19:45 INFO  API Testing:222 - Passing URL : https://petstore.swagger.io/v2
+2020-01-26 18:19:51 INFO  API Testing:240 - Passing URI : /store/order
+2020-01-26 18:19:51 INFO  API Testing:242 - Getting Response Content {"id":15,"petId":45,"quantity":2,"shipDate":"2020-01-18T11:29:05.242+0000","status":"placed","complete":true}
+2020-01-26 18:19:51 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 18:19:53 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 18:19:55 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-26 18:19:55 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 18:19:55 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:19:55 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:19:55 INFO  API Testing:222 - Passing URL : https://reqres.in/
+2020-01-26 18:20:00 INFO  API Testing:249 - Passing URI : /api/users/2
+2020-01-26 18:20:00 INFO  API Testing:251 - Getting Response Content {"name":"Koushick","job":"Test Engineer","updatedAt":"2020-01-26T12:50:01.051Z"}
+2020-01-26 18:20:00 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 18:20:03 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 18:20:05 INFO  API Testing:128 - The Content_type is : application/json; charset=utf-8
+2020-01-26 18:20:05 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 18:20:05 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:20:05 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:20:05 INFO  API Testing:222 - Passing URL : https://petstore.swagger.io/v2
+2020-01-26 18:20:10 INFO  API Testing:249 - Passing URI : /pet
+2020-01-26 18:20:10 INFO  API Testing:251 - Getting Response Content {"id":11,"category":{"id":11,"name":"string"},"name":"Dineshkumar","photoUrls":["string"],"tags":[{"id":11,"name":"string"}],"status":"available"}
+2020-01-26 18:20:10 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 18:20:13 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 18:20:15 INFO  API Testing:128 - The Content_type is : application/json
+2020-01-26 18:20:15 INFO  API Testing:130 - Getting Excel Data : application/json; charset=utf-8
+
+2020-01-26 18:20:15 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:20:15 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:20:15 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2020-01-26 18:20:18 INFO  API Testing:50 - The add Result is : 30
+2020-01-26 18:20:18 INFO  API Testing:51 - The sub Result is : 30
+2020-01-26 18:20:18 INFO  API Testing:52 - The mul Result is : 40
+2020-01-26 18:20:18 INFO  API Testing:53 - The div Result is : 4
+2020-01-26 18:20:26 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:20:26 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:20:26 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-26 18:20:31 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-26 18:20:31 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>30</AddResult></AddResponse></soap:Body></soap:Envelope>
+2020-01-26 18:20:31 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 18:20:33 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 18:20:35 INFO  API Testing:128 - The Content_type is : text/xml; charset=utf-8
+2020-01-26 18:20:35 INFO  API Testing:130 - Getting Excel Data : text/xml; charset=utf-8
+2020-01-26 18:20:35 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:20:36 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:20:36 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-26 18:20:41 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-26 18:20:41 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>10</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+2020-01-26 18:20:41 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 18:20:43 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 18:20:45 INFO  API Testing:128 - The Content_type is : text/xml; charset=utf-8
+2020-01-26 18:20:45 INFO  API Testing:130 - Getting Excel Data : text/xml; charset=utf-8
+2020-01-26 18:20:45 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:20:45 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:20:45 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-26 18:20:50 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-26 18:20:50 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><DivideResponse xmlns="http://tempuri.org/"><DivideResult>4</DivideResult></DivideResponse></soap:Body></soap:Envelope>
+2020-01-26 18:20:50 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 18:20:52 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 18:20:54 INFO  API Testing:128 - The Content_type is : text/xml; charset=utf-8
+2020-01-26 18:20:54 INFO  API Testing:130 - Getting Excel Data : 
+2020-01-26 18:20:54 INFO  API Testing:90 - -----------------End of Scenario-----------------
+2020-01-26 18:20:54 INFO  API Testing:64 - -----------------Start of Scenario-----------------
+2020-01-26 18:20:55 INFO  API Testing:222 - Passing URL : http://www.dneonline.com/
+2020-01-26 18:20:59 INFO  API Testing:240 - Passing URI : /calculator.asmx
+2020-01-26 18:20:59 INFO  API Testing:242 - Getting Response Content <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><MultiplyResponse xmlns="http://tempuri.org/"><MultiplyResult>40</MultiplyResult></MultiplyResponse></soap:Body></soap:Envelope>
+2020-01-26 18:20:59 INFO  API Testing:100 - Getting Status Code : 200
+2020-01-26 18:21:02 INFO  API Testing:145 - Getting Status Line HTTP/1.1 200 OK
+2020-01-26 18:21:04 INFO  API Testing:128 - The Content_type is : text/xml; charset=utf-8
+2020-01-26 18:21:04 INFO  API Testing:130 - Getting Excel Data : 
+2020-01-26 18:21:04 INFO  API Testing:90 - -----------------End of Scenario-----------------

@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/Features/REST",glue = {"com.Restapi.Step_def"},
+@CucumberOptions(features = "src/test/resources/Features",glue = {"com.Restapi.Step_def"},
 dryRun = false,
 plugin={"pretty","html:target/cucumber-report-html",
 		"json:target/cucumber.json",
@@ -15,4 +15,4 @@ monochrome = true,
 tags = "@All")
 public class Runner {
 
-}
+} 

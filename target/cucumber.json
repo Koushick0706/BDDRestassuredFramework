@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 466305601,
+              "duration": 455584500,
               "status": "passed"
             },
             "line": 6,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 654300,
+              "duration": 388200,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 374675300,
+              "duration": 352756100,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1015350500,
+              "duration": 1063472600,
               "status": "passed"
             },
             "line": 9,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 2617354000,
+              "duration": 2645517000,
               "status": "passed"
             },
             "line": 10,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 7146646900,
+              "duration": 6056402500,
               "status": "passed"
             },
             "line": 11,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 2477226300,
+              "duration": 2497994699,
               "status": "passed"
             },
             "line": 12,
@@ -130,7 +130,7 @@
           },
           {
             "result": {
-              "duration": 42931700,
+              "duration": 47099301,
               "status": "passed"
             },
             "line": 13,
@@ -142,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 143300200,
+              "duration": 302695100,
               "status": "passed"
             },
             "line": 14,
@@ -154,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 364500,
+              "duration": 522601,
               "status": "passed"
             },
             "comments": [
@@ -172,7 +172,7 @@
           },
           {
             "result": {
-              "duration": 2224534700,
+              "duration": 2139621100,
               "status": "passed"
             },
             "line": 18,
@@ -184,7 +184,7 @@
           },
           {
             "result": {
-              "duration": 1239100,
+              "duration": 1205700,
               "status": "passed"
             },
             "comments": [
@@ -202,7 +202,7 @@
           },
           {
             "result": {
-              "duration": 8114000,
+              "duration": 6998801,
               "status": "passed"
             },
             "line": 22,
@@ -214,10 +214,2964 @@
           },
           {
             "result": {
-              "duration": 769100,
+              "duration": 436499,
               "status": "passed"
             },
             "line": 23,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Creating Extent reports",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 219900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i create the extent report and start a test",
+            "match": {
+              "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 188501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Check if user is able to submit GET API request and Checks The Status Code",
+        "description": "",
+        "id": "this-feature-is-to-check-get-api;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 153387800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56880201,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i start my before scenario block with \"RequisAPI_Get_SpecificUser\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RequisAPI_Get_SpecificUser",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 70
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2010728300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serviceBaseURL",
+                  "offset": 31
+                },
+                {
+                  "val": "Type",
+                  "offset": 58
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4493275200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I submit the GET request as per the data in Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2263562500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I validate status code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_status_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60299,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate mandatory tag in response from Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111987800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Store the Response in the Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 532099,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 16,
+                "value": "#Check if user is able to submit GET API request and Checks StatusLine"
+              }
+            ],
+            "line": 17,
+            "name": "I validate StatusLine of the Response",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2118570900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i Store the Status Line in Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3195100,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 20,
+                "value": "#Check if user is able to submit GET API request and Checks The Content_Type"
+              }
+            ],
+            "line": 21,
+            "name": "I validate Content-type code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4986000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i Store all my logs into File",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 424200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Creating Extent reports",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 186100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i create the extent report and start a test",
+            "match": {
+              "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 172599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Check if user is able to submit GET API request and Checks The Status Code",
+        "description": "",
+        "id": "this-feature-is-to-check-get-api;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 48983299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 51032400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i start my before scenario block with \"Swagger_Get_Specificpet\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Swagger_Get_Specificpet",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 67
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2013939400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serviceBaseURL",
+                  "offset": 31
+                },
+                {
+                  "val": "Type",
+                  "offset": 58
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3880330700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I submit the GET request as per the data in Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2200630601,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I validate status code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_status_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3690100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate mandatory tag in response from Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85172200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Store the Response in the Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 457301,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 16,
+                "value": "#Check if user is able to submit GET API request and Checks StatusLine"
+              }
+            ],
+            "line": 17,
+            "name": "I validate StatusLine of the Response",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2122695999,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i Store the Status Line in Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 790501,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 20,
+                "value": "#Check if user is able to submit GET API request and Checks The Content_Type"
+              }
+            ],
+            "line": 21,
+            "name": "I validate Content-type code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6466700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i Store all my logs into File",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 429201,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Creating Extent reports",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i create the extent report and start a test",
+            "match": {
+              "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 84901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Check if user is able to submit GET API request and Checks The Status Code",
+        "description": "",
+        "id": "this-feature-is-to-check-get-api;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 74276700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36154200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i start my before scenario block with \"Swagger_Get_Inventory\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Swagger_Get_Inventory",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 65
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2014666499,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serviceBaseURL",
+                  "offset": 31
+                },
+                {
+                  "val": "Type",
+                  "offset": 58
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3484430000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I submit the GET request as per the data in Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2162351900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I validate status code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_status_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 904200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate mandatory tag in response from Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105918299,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Store the Response in the Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371001,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 16,
+                "value": "#Check if user is able to submit GET API request and Checks StatusLine"
+              }
+            ],
+            "line": 17,
+            "name": "I validate StatusLine of the Response",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2073775800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i Store the Status Line in Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1361801,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 20,
+                "value": "#Check if user is able to submit GET API request and Checks The Content_Type"
+              }
+            ],
+            "line": 21,
+            "name": "I validate Content-type code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7630500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i Store all my logs into File",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 557900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Creating Extent reports",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 117700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i create the extent report and start a test",
+            "match": {
+              "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 47101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Check if user is able to submit GET API request and Checks The Status Code",
+        "description": "",
+        "id": "this-feature-is-to-check-get-api;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 67507100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 70421300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i start my before scenario block with \"GORestAPI_Get_User\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GORestAPI_Get_User",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 62
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2007792300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serviceBaseURL",
+                  "offset": 31
+                },
+                {
+                  "val": "Type",
+                  "offset": 58
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3322696300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I submit the GET request as per the data in Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2152143501,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I validate status code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_status_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1329601,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate mandatory tag in response from Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89409700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Store the Response in the Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 16,
+                "value": "#Check if user is able to submit GET API request and Checks StatusLine"
+              }
+            ],
+            "line": 17,
+            "name": "I validate StatusLine of the Response",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2075648500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i Store the Status Line in Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 860000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 20,
+                "value": "#Check if user is able to submit GET API request and Checks The Content_Type"
+              }
+            ],
+            "line": 21,
+            "name": "I validate Content-type code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7446400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i Store all my logs into File",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 578501,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@All"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to check GET API",
+    "description": "",
+    "id": "this-feature-is-to-check-get-api",
+    "keyword": "Feature",
+    "uri": "REST/GET_Response.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@All"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 79100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Check if user is able to submit POST API request and Checks The Status Code",
+        "description": "",
+        "id": "this-feature-is-to-check-post-api;check-if-user-is-able-to-submit-post-api-request-and-checks-the-status-code;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 62625800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34178900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i start my before scenario block with \"RequisAPI_Post_User\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RequisAPI_Post_User",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 63
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2007409800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serviceBaseURL",
+                  "offset": 31
+                },
+                {
+                  "val": "Type",
+                  "offset": 58
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82386899,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i Post My Json Response file \"Createuser.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Createuser.json",
+                  "offset": 30
+                }
+              ],
+              "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3277787999,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I submit the POST request",
+            "match": {
+              "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2195966200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate status code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_status_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1883699,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate mandatory tag in response from Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78823201,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Store the Response in the Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 550899,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "#Check if user is able to submit POST API request and Checks StatusLine"
+              }
+            ],
+            "line": 14,
+            "name": "I validate StatusLine of the Response",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2066704400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i Store the Status Line in Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1037100,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 17,
+                "value": "#Check if user is able to submit POST API request and Checks The Content_Type"
+              }
+            ],
+            "line": 18,
+            "name": "I validate Content-type code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5907000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i Store all my logs into File",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 414200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 223900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Check if user is able to submit POST API request and Checks The Status Code",
+        "description": "",
+        "id": "this-feature-is-to-check-post-api;check-if-user-is-able-to-submit-post-api-request-and-checks-the-status-code;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 55240600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25537100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i start my before scenario block with \"Swagger_Post_Pet\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Swagger_Post_Pet",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 60
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2029024700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serviceBaseURL",
+                  "offset": 31
+                },
+                {
+                  "val": "Type",
+                  "offset": 58
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11381100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i Post My Json Response file \"Postpet.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Postpet.json",
+                  "offset": 30
+                }
+              ],
+              "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3551107700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I submit the POST request",
+            "match": {
+              "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2149708200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate status code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_status_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2848800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate mandatory tag in response from Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64721199,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Store the Response in the Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 401300,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "#Check if user is able to submit POST API request and Checks StatusLine"
+              }
+            ],
+            "line": 14,
+            "name": "I validate StatusLine of the Response",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2046229501,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i Store the Status Line in Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1225301,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 17,
+                "value": "#Check if user is able to submit POST API request and Checks The Content_Type"
+              }
+            ],
+            "line": 18,
+            "name": "I validate Content-type code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55779501,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i Store all my logs into File",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 423001,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 313400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Check if user is able to submit POST API request and Checks The Status Code",
+        "description": "",
+        "id": "this-feature-is-to-check-post-api;check-if-user-is-able-to-submit-post-api-request-and-checks-the-status-code;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 69858300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32589800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i start my before scenario block with \"Swagger_Post_Inventory\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Swagger_Post_Inventory",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 66
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2006465200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serviceBaseURL",
+                  "offset": 31
+                },
+                {
+                  "val": "Type",
+                  "offset": 58
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6871700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i Post My Json Response file \"SwaggerStore.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SwaggerStore.json",
+                  "offset": 30
+                }
+              ],
+              "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3359239400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I submit the POST request",
+            "match": {
+              "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2148266701,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate status code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_status_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1738601,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate mandatory tag in response from Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81280300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Store the Response in the Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407100,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "#Check if user is able to submit POST API request and Checks StatusLine"
+              }
+            ],
+            "line": 14,
+            "name": "I validate StatusLine of the Response",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2105183500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i Store the Status Line in Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1374699,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 17,
+                "value": "#Check if user is able to submit POST API request and Checks The Content_Type"
+              }
+            ],
+            "line": 18,
+            "name": "I validate Content-type code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7750600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i Store all my logs into File",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 488900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@All"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to check POST API",
+    "description": "",
+    "id": "this-feature-is-to-check-post-api",
+    "keyword": "Feature",
+    "uri": "REST/POST_Response.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@All"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 245400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Check if user is able to submit PUT API request and Checks The Status Code",
+        "description": "",
+        "id": "this-feature-is-to-check-put-api;check-if-user-is-able-to-submit-put-api-request-and-checks-the-status-code;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 60062701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26954599,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i start my before scenario block with \"RequisAPI_Put_User\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RequisAPI_Put_User",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 62
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2013643700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serviceBaseURL",
+                  "offset": 31
+                },
+                {
+                  "val": "Type",
+                  "offset": 58
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3701301,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i Post My Json Response file \"updateuser.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "updateuser.json",
+                  "offset": 30
+                }
+              ],
+              "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3203661401,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I submit the PUT request",
+            "match": {
+              "location": "Rest_Step_def_PUT.i_submit_the_PUT_request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2137206100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate status code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_status_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 887601,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate mandatory tag in response from Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 77679700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Store the Response in the Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "#Check if user is able to submit PUT API request and Checks StatusLine"
+              }
+            ],
+            "line": 14,
+            "name": "I validate StatusLine of the Response",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2052314200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i Store the Status Line in Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1293700,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 17,
+                "value": "#Check if user is able to submit PUT API request and Checks The Content_Type"
+              }
+            ],
+            "line": 18,
+            "name": "I validate Content-type code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7761301,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i Store all my logs into File",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 398399,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 59300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Check if user is able to submit PUT API request and Checks The Status Code",
+        "description": "",
+        "id": "this-feature-is-to-check-put-api;check-if-user-is-able-to-submit-put-api-request-and-checks-the-status-code;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 62359600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25132700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i start my before scenario block with \"Swagger_Put_Pet\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Swagger_Put_Pet",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 59
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2015942200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serviceBaseURL",
+                  "offset": 31
+                },
+                {
+                  "val": "Type",
+                  "offset": 58
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5691500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i Post My Json Response file \"Updatepet.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Updatepet.json",
+                  "offset": 30
+                }
+              ],
+              "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3505086999,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I submit the PUT request",
+            "match": {
+              "location": "Rest_Step_def_PUT.i_submit_the_PUT_request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2136434301,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate status code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_status_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6159700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate mandatory tag in response from Excel Worksheet",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73373501,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Store the Response in the Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 306800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 13,
+                "value": "#Check if user is able to submit PUT API request and Checks StatusLine"
+              }
+            ],
+            "line": 14,
+            "name": "I validate StatusLine of the Response",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2084411699,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i Store the Status Line in Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 769200,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 17,
+                "value": "#Check if user is able to submit PUT API request and Checks The Content_Type"
+              }
+            ],
+            "line": 18,
+            "name": "I validate Content-type code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6870100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i Store all my logs into File",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 374300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@All"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to check PUT API",
+    "description": "",
+    "id": "this-feature-is-to-check-put-api",
+    "keyword": "Feature",
+    "uri": "REST/PUT_Response.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@All"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Creating Extent reports",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "comments": [
+          {
+            "line": 6,
+            "value": "#Given i create the extent report and start a test"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 183200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Checking weather Webserive is working as per Expected",
+        "description": "",
+        "id": "this-feature-is-to-check-webservice-testing;checking-weather-webserive-is-working-as-per-expected",
+        "after": [
+          {
+            "result": {
+              "duration": 74017500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31701200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i start my before scenario block with \"Webservice_Post_ADD\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Webservice_Post_ADD",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 63
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 193300400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i hit the webservice",
+            "match": {
+              "location": "SOAP_Step_def.i_hit_the_webservice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11136347800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i check the response and status of the service",
+            "match": {
+              "location": "SOAP_Step_def.i_check_the_response_and_status_of_the_service()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 708000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to check Webservice Testing",
+    "description": "",
+    "id": "this-feature-is-to-check-webservice-testing",
+    "keyword": "Feature",
+    "uri": "SOAP/Webservice.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@All"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Creating Extent reports",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 144299,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i create the extent report and start a test",
+            "match": {
+              "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 177401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Check if user is able to submit GET API request and Checks The Status Code",
+        "description": "",
+        "id": "this-feature-is-to-check-webservice-testing;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 95164000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39819701,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i start my before scenario block with \"Webservice_Post_ADD\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Webservice_Post_ADD",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 63
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2008172500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serviceBaseURL",
+                  "offset": 31
+                },
+                {
+                  "val": "Type",
+                  "offset": 58
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5151200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i Submit my SOAP request for \"Add.xml\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add.xml",
+                  "offset": 30
+                }
+              ],
+              "location": "SOAP_Step_def.i_Submit_my_SOAP_request_for(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2983729300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I submit the POST request",
+            "match": {
+              "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2141952500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate status code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_status_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68382100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Store the Response in the Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 439901,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "#Check if user is able to submit GET API request and Checks StatusLine"
+              }
+            ],
+            "line": 16,
+            "name": "I validate StatusLine of the Response",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2052022799,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "i Store the Status Line in Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 870000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 19,
+                "value": "#Check if user is able to submit GET API request and Checks The Content_Type"
+              }
+            ],
+            "line": 20,
+            "name": "I validate Content-type code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6602200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i Store all my logs into File",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 364600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Creating Extent reports",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 181099,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i create the extent report and start a test",
+            "match": {
+              "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 246201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Check if user is able to submit GET API request and Checks The Status Code",
+        "description": "",
+        "id": "this-feature-is-to-check-webservice-testing;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 168803500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 106979701,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i start my before scenario block with \"Webservice_Post_SUBTRACT\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Webservice_Post_SUBTRACT",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 68
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1995689900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serviceBaseURL",
+                  "offset": 31
+                },
+                {
+                  "val": "Type",
+                  "offset": 58
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3492200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i Submit my SOAP request for \"Subtract.xml\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Subtract.xml",
+                  "offset": 30
+                }
+              ],
+              "location": "SOAP_Step_def.i_Submit_my_SOAP_request_for(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2912617199,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I submit the POST request",
+            "match": {
+              "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2138848601,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate status code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_status_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97616399,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Store the Response in the Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 610301,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "#Check if user is able to submit GET API request and Checks StatusLine"
+              }
+            ],
+            "line": 16,
+            "name": "I validate StatusLine of the Response",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2041177800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "i Store the Status Line in Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 668499,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 19,
+                "value": "#Check if user is able to submit GET API request and Checks The Content_Type"
+              }
+            ],
+            "line": 20,
+            "name": "I validate Content-type code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5109900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i Store all my logs into File",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 451800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i end my After Scenario block",
+            "match": {
+              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Creating Extent reports",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 108001,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i create the extent report and start a test",
+            "match": {
+              "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 160800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.createExtentreporttest()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Check if user is able to submit GET API request and Checks The Status Code",
+        "description": "",
+        "id": "this-feature-is-to-check-webservice-testing;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 133038600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Rest_Step_def_GET.closereport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 57177800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i start my before scenario block with \"Webservice_Post_DIVIDE\"and\"Getdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Webservice_Post_DIVIDE",
+                  "offset": 39
+                },
+                {
+                  "val": "Getdata",
+                  "offset": 66
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1998314100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serviceBaseURL",
+                  "offset": 31
+                },
+                {
+                  "val": "Type",
+                  "offset": 58
+                }
+              ],
+              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4666101,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i Submit my SOAP request for \"Divide.xml\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Divide.xml",
+                  "offset": 30
+                }
+              ],
+              "location": "SOAP_Step_def.i_Submit_my_SOAP_request_for(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2875319100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I submit the POST request",
+            "match": {
+              "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2114827400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate status code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_status_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63290500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Store the Response in the Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304100,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "#Check if user is able to submit GET API request and Checks StatusLine"
+              }
+            ],
+            "line": 16,
+            "name": "I validate StatusLine of the Response",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2043990900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "i Store the Status Line in Excel",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 649300,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 19,
+                "value": "#Check if user is able to submit GET API request and Checks The Content_Type"
+              }
+            ],
+            "line": 20,
+            "name": "I validate Content-type code",
+            "match": {
+              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4151399,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i Store all my logs into File",
+            "match": {
+              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 297900,
+              "status": "passed"
+            },
+            "line": 22,
             "name": "i end my After Scenario block",
             "match": {
               "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
@@ -257,237 +3211,7 @@
         "before": [
           {
             "result": {
-              "duration": 234601,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.createExtentreporttest()"
-            }
-          }
-        ],
-        "line": 28,
-        "name": "Check if user is able to submit GET API request and Checks The Status Code",
-        "description": "",
-        "id": "this-feature-is-to-check-get-api;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 69697999,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.closereport()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 63083801,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "i start my before scenario block with \"RequisAPI_Get_SpecificUser\"and\"Getdata\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "RequisAPI_Get_SpecificUser",
-                  "offset": 39
-                },
-                {
-                  "val": "Getdata",
-                  "offset": 70
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2003162801,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
-            "match": {
-              "arguments": [
-                {
-                  "val": "serviceBaseURL",
-                  "offset": 31
-                },
-                {
-                  "val": "Type",
-                  "offset": 58
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3343996799,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I submit the GET request as per the data in Excel Worksheet",
-            "match": {
-              "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2231841000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I validate status code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_status_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 73900,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I validate mandatory tag in response from Excel Worksheet",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 116858901,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I Store the Response in the Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 731200,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 16,
-                "value": "#Check if user is able to submit GET API request and Checks StatusLine"
-              }
-            ],
-            "line": 17,
-            "name": "I validate StatusLine of the Response",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2199060899,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "i Store the Status Line in Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1943501,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 20,
-                "value": "#Check if user is able to submit GET API request and Checks The Content_Type"
-              }
-            ],
-            "line": 21,
-            "name": "I validate Content-type code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 8076701,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "i Store all my logs into File",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 368799,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "i end my After Scenario block",
-            "match": {
-              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@All"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Creating Extent reports",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 238599,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "i create the extent report and start a test",
-            "match": {
-              "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 190000,
+              "duration": 193299,
               "status": "passed"
             },
             "match": {
@@ -498,11 +3222,11 @@
         "line": 29,
         "name": "Check if user is able to submit GET API request and Checks The Status Code",
         "description": "",
-        "id": "this-feature-is-to-check-get-api;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;4",
+        "id": "this-feature-is-to-check-webservice-testing;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;5",
         "after": [
           {
             "result": {
-              "duration": 71032500,
+              "duration": 54600400,
               "status": "passed"
             },
             "match": {
@@ -515,20 +3239,20 @@
         "steps": [
           {
             "result": {
-              "duration": 54612700,
+              "duration": 120166399,
               "status": "passed"
             },
             "line": 9,
-            "name": "i start my before scenario block with \"Swagger_Get_Specificpet\"and\"Getdata\"",
+            "name": "i start my before scenario block with \"Webservice_Post_MULTIPLY\"and\"Getdata\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Swagger_Get_Specificpet",
+                  "val": "Webservice_Post_MULTIPLY",
                   "offset": 39
                 },
                 {
                   "val": "Getdata",
-                  "offset": 67
+                  "offset": 68
                 }
               ],
               "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
@@ -541,7 +3265,7 @@
           },
           {
             "result": {
-              "duration": 2001645500,
+              "duration": 2011760399,
               "status": "passed"
             },
             "line": 10,
@@ -566,22 +3290,43 @@
           },
           {
             "result": {
-              "duration": 4953364300,
+              "duration": 4776000,
               "status": "passed"
             },
             "line": 11,
-            "name": "I submit the GET request as per the data in Excel Worksheet",
+            "name": "i Submit my SOAP request for \"Multiply.xml\"",
             "match": {
-              "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
+              "arguments": [
+                {
+                  "val": "Multiply.xml",
+                  "offset": 30
+                }
+              ],
+              "location": "SOAP_Step_def.i_Submit_my_SOAP_request_for(String)"
             },
-            "keyword": "When "
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 2254963800,
+              "duration": 2794625600,
               "status": "passed"
             },
             "line": 12,
+            "name": "I submit the POST request",
+            "match": {
+              "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2119301300,
+              "status": "passed"
+            },
+            "line": 13,
             "name": "I validate status code",
             "match": {
               "location": "Rest_Step_def_GET.i_validate_status_code()"
@@ -590,19 +3335,7 @@
           },
           {
             "result": {
-              "duration": 473701,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I validate mandatory tag in response from Excel Worksheet",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 89866800,
+              "duration": 65113500,
               "status": "passed"
             },
             "line": 14,
@@ -614,16 +3347,16 @@
           },
           {
             "result": {
-              "duration": 315100,
+              "duration": 261500,
               "status": "passed"
             },
             "comments": [
               {
-                "line": 16,
+                "line": 15,
                 "value": "#Check if user is able to submit GET API request and Checks StatusLine"
               }
             ],
-            "line": 17,
+            "line": 16,
             "name": "I validate StatusLine of the Response",
             "match": {
               "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
@@ -632,240 +3365,10 @@
           },
           {
             "result": {
-              "duration": 2096522900,
+              "duration": 2071575500,
               "status": "passed"
             },
-            "line": 18,
-            "name": "i Store the Status Line in Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1801101,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 20,
-                "value": "#Check if user is able to submit GET API request and Checks The Content_Type"
-              }
-            ],
-            "line": 21,
-            "name": "I validate Content-type code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 15239300,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "i Store all my logs into File",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 475599,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "i end my After Scenario block",
-            "match": {
-              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@All"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Creating Extent reports",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 164500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "i create the extent report and start a test",
-            "match": {
-              "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 41700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.createExtentreporttest()"
-            }
-          }
-        ],
-        "line": 30,
-        "name": "Check if user is able to submit GET API request and Checks The Status Code",
-        "description": "",
-        "id": "this-feature-is-to-check-get-api;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 76145000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.closereport()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 68087001,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "i start my before scenario block with \"Swagger_Get_Inventory\"and\"Getdata\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Swagger_Get_Inventory",
-                  "offset": 39
-                },
-                {
-                  "val": "Getdata",
-                  "offset": 65
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2002989900,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
-            "match": {
-              "arguments": [
-                {
-                  "val": "serviceBaseURL",
-                  "offset": 31
-                },
-                {
-                  "val": "Type",
-                  "offset": 58
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3468196400,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I submit the GET request as per the data in Excel Worksheet",
-            "match": {
-              "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2193527700,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I validate status code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_status_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1194900,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I validate mandatory tag in response from Excel Worksheet",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 156690199,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I Store the Response in the Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 554600,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 16,
-                "value": "#Check if user is able to submit GET API request and Checks StatusLine"
-              }
-            ],
             "line": 17,
-            "name": "I validate StatusLine of the Response",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2132735800,
-              "status": "passed"
-            },
-            "line": 18,
             "name": "i Store the Status Line in Excel",
             "match": {
               "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
@@ -874,16 +3377,16 @@
           },
           {
             "result": {
-              "duration": 1819300,
+              "duration": 1151000,
               "status": "passed"
             },
             "comments": [
               {
-                "line": 20,
+                "line": 19,
                 "value": "#Check if user is able to submit GET API request and Checks The Content_Type"
               }
             ],
-            "line": 21,
+            "line": 20,
             "name": "I validate Content-type code",
             "match": {
               "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
@@ -892,240 +3395,10 @@
           },
           {
             "result": {
-              "duration": 17989600,
+              "duration": 6372999,
               "status": "passed"
             },
-            "line": 22,
-            "name": "i Store all my logs into File",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 658100,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "i end my After Scenario block",
-            "match": {
-              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@All"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Creating Extent reports",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 44100,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "i create the extent report and start a test",
-            "match": {
-              "location": "Rest_Step_def_GET.i_create_the_extent_report_and_start_a_test()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 260600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.createExtentreporttest()"
-            }
-          }
-        ],
-        "line": 31,
-        "name": "Check if user is able to submit GET API request and Checks The Status Code",
-        "description": "",
-        "id": "this-feature-is-to-check-get-api;check-if-user-is-able-to-submit-get-api-request-and-checks-the-status-code;;6",
-        "after": [
-          {
-            "result": {
-              "duration": 78818400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.closereport()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 42437800,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "i start my before scenario block with \"GORestAPI_Get_User\"and\"Getdata\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "GORestAPI_Get_User",
-                  "offset": 39
-                },
-                {
-                  "val": "Getdata",
-                  "offset": 62
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2006112301,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
-            "match": {
-              "arguments": [
-                {
-                  "val": "serviceBaseURL",
-                  "offset": 31
-                },
-                {
-                  "val": "Type",
-                  "offset": 58
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3365044500,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I submit the GET request as per the data in Excel Worksheet",
-            "match": {
-              "location": "Rest_Step_def_GET.i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2123403601,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I validate status code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_status_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 88885000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I validate mandatory tag in response from Excel Worksheet",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 110996300,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I Store the Response in the Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 521100,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 16,
-                "value": "#Check if user is able to submit GET API request and Checks StatusLine"
-              }
-            ],
-            "line": 17,
-            "name": "I validate StatusLine of the Response",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2087048300,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "i Store the Status Line in Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2223400,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 20,
-                "value": "#Check if user is able to submit GET API request and Checks The Content_Type"
-              }
-            ],
             "line": 21,
-            "name": "I validate Content-type code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 17350900,
-              "status": "passed"
-            },
-            "line": 22,
             "name": "i Store all my logs into File",
             "match": {
               "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
@@ -1134,10 +3407,10 @@
           },
           {
             "result": {
-              "duration": 548100,
+              "duration": 396700,
               "status": "passed"
             },
-            "line": 23,
+            "line": 22,
             "name": "i end my After Scenario block",
             "match": {
               "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
@@ -1153,1193 +3426,11 @@
         ]
       }
     ],
-    "name": "This feature is to check GET API",
+    "name": "This feature is to check Webservice Testing",
     "description": "",
-    "id": "this-feature-is-to-check-get-api",
+    "id": "this-feature-is-to-check-webservice-testing",
     "keyword": "Feature",
-    "uri": "GET_Response.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@All"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 193901,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.createExtentreporttest()"
-            }
-          }
-        ],
-        "line": 23,
-        "name": "Check if user is able to submit POST API request and Checks The Status Code",
-        "description": "",
-        "id": "this-feature-is-to-check-post-api;check-if-user-is-able-to-submit-post-api-request-and-checks-the-status-code;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 63902000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.closereport()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 36361200,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "i start my before scenario block with \"RequisAPI_Post_User\"and\"Getdata\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "RequisAPI_Post_User",
-                  "offset": 39
-                },
-                {
-                  "val": "Getdata",
-                  "offset": 63
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2001940500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
-            "match": {
-              "arguments": [
-                {
-                  "val": "serviceBaseURL",
-                  "offset": 31
-                },
-                {
-                  "val": "Type",
-                  "offset": 58
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 134206601,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "i Post My Json Response file \"Createuser.json\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Createuser.json",
-                  "offset": 30
-                }
-              ],
-              "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3259044701,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I submit the POST request",
-            "match": {
-              "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2154099800,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I validate status code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_status_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6291800,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I validate mandatory tag in response from Excel Worksheet",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 83102601,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I Store the Response in the Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 438600,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 13,
-                "value": "#Check if user is able to submit POST API request and Checks StatusLine"
-              }
-            ],
-            "line": 14,
-            "name": "I validate StatusLine of the Response",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2077177900,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "i Store the Status Line in Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1848899,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 17,
-                "value": "#Check if user is able to submit POST API request and Checks The Content_Type"
-              }
-            ],
-            "line": 18,
-            "name": "I validate Content-type code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 14167301,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "i Store all my logs into File",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 588101,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "i end my After Scenario block",
-            "match": {
-              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@All"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 55300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.createExtentreporttest()"
-            }
-          }
-        ],
-        "line": 24,
-        "name": "Check if user is able to submit POST API request and Checks The Status Code",
-        "description": "",
-        "id": "this-feature-is-to-check-post-api;check-if-user-is-able-to-submit-post-api-request-and-checks-the-status-code;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 59185600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.closereport()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 52372900,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "i start my before scenario block with \"Swagger_Post_Pet\"and\"Getdata\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Swagger_Post_Pet",
-                  "offset": 39
-                },
-                {
-                  "val": "Getdata",
-                  "offset": 60
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2002974500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
-            "match": {
-              "arguments": [
-                {
-                  "val": "serviceBaseURL",
-                  "offset": 31
-                },
-                {
-                  "val": "Type",
-                  "offset": 58
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3960200,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "i Post My Json Response file \"Postpet.json\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Postpet.json",
-                  "offset": 30
-                }
-              ],
-              "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3481237401,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I submit the POST request",
-            "match": {
-              "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2155255800,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I validate status code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_status_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4738499,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I validate mandatory tag in response from Excel Worksheet",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 102530700,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I Store the Response in the Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 433300,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 13,
-                "value": "#Check if user is able to submit POST API request and Checks StatusLine"
-              }
-            ],
-            "line": 14,
-            "name": "I validate StatusLine of the Response",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2109456800,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "i Store the Status Line in Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2082800,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 17,
-                "value": "#Check if user is able to submit POST API request and Checks The Content_Type"
-              }
-            ],
-            "line": 18,
-            "name": "I validate Content-type code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 19556600,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "i Store all my logs into File",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 877500,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "i end my After Scenario block",
-            "match": {
-              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@All"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 126800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.createExtentreporttest()"
-            }
-          }
-        ],
-        "line": 25,
-        "name": "Check if user is able to submit POST API request and Checks The Status Code",
-        "description": "",
-        "id": "this-feature-is-to-check-post-api;check-if-user-is-able-to-submit-post-api-request-and-checks-the-status-code;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 65438799,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.closereport()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 32273699,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "i start my before scenario block with \"Swagger_Post_Inventory\"and\"Getdata\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Swagger_Post_Inventory",
-                  "offset": 39
-                },
-                {
-                  "val": "Getdata",
-                  "offset": 66
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2000174300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
-            "match": {
-              "arguments": [
-                {
-                  "val": "serviceBaseURL",
-                  "offset": 31
-                },
-                {
-                  "val": "Type",
-                  "offset": 58
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3121400,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "i Post My Json Response file \"SwaggerStore.json\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "SwaggerStore.json",
-                  "offset": 30
-                }
-              ],
-              "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3469013500,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I submit the POST request",
-            "match": {
-              "location": "Rest_Step_def_POST.i_submit_the_POST_request()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2137848500,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I validate status code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_status_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1567299,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I validate mandatory tag in response from Excel Worksheet",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 60495899,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I Store the Response in the Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 611900,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 13,
-                "value": "#Check if user is able to submit POST API request and Checks StatusLine"
-              }
-            ],
-            "line": 14,
-            "name": "I validate StatusLine of the Response",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2140402200,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "i Store the Status Line in Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1382101,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 17,
-                "value": "#Check if user is able to submit POST API request and Checks The Content_Type"
-              }
-            ],
-            "line": 18,
-            "name": "I validate Content-type code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 14780301,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "i Store all my logs into File",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 445800,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "i end my After Scenario block",
-            "match": {
-              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@All"
-          }
-        ]
-      }
-    ],
-    "name": "This feature is to check POST API",
-    "description": "",
-    "id": "this-feature-is-to-check-post-api",
-    "keyword": "Feature",
-    "uri": "POST_Response.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@All"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 174900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.createExtentreporttest()"
-            }
-          }
-        ],
-        "line": 23,
-        "name": "Check if user is able to submit PUT API request and Checks The Status Code",
-        "description": "",
-        "id": "this-feature-is-to-check-put-api;check-if-user-is-able-to-submit-put-api-request-and-checks-the-status-code;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 46817000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.closereport()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 40650100,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "i start my before scenario block with \"RequisAPI_Put_User\"and\"Getdata\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "RequisAPI_Put_User",
-                  "offset": 39
-                },
-                {
-                  "val": "Getdata",
-                  "offset": 62
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2002020800,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
-            "match": {
-              "arguments": [
-                {
-                  "val": "serviceBaseURL",
-                  "offset": 31
-                },
-                {
-                  "val": "Type",
-                  "offset": 58
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6763701,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "i Post My Json Response file \"updateuser.json\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "updateuser.json",
-                  "offset": 30
-                }
-              ],
-              "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6975612700,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I submit the PUT request",
-            "match": {
-              "location": "Rest_Step_def_PUT.i_submit_the_PUT_request()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2130144000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I validate status code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_status_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1503400,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I validate mandatory tag in response from Excel Worksheet",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 66430700,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I Store the Response in the Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 275201,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 13,
-                "value": "#Check if user is able to submit PUT API request and Checks StatusLine"
-              }
-            ],
-            "line": 14,
-            "name": "I validate StatusLine of the Response",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2048543201,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "i Store the Status Line in Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1411400,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 17,
-                "value": "#Check if user is able to submit PUT API request and Checks The Content_Type"
-              }
-            ],
-            "line": 18,
-            "name": "I validate Content-type code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 11650399,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "i Store all my logs into File",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 749500,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "i end my After Scenario block",
-            "match": {
-              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@All"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 48900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.createExtentreporttest()"
-            }
-          }
-        ],
-        "line": 24,
-        "name": "Check if user is able to submit PUT API request and Checks The Status Code",
-        "description": "",
-        "id": "this-feature-is-to-check-put-api;check-if-user-is-able-to-submit-put-api-request-and-checks-the-status-code;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 92327400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Rest_Step_def_GET.closereport()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 29450300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "i start my before scenario block with \"Swagger_Put_Pet\"and\"Getdata\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Swagger_Put_Pet",
-                  "offset": 39
-                },
-                {
-                  "val": "Getdata",
-                  "offset": 59
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_start_my_before_scenario_block_with_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2002060200,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I want to execute service for \"serviceBaseURL\" which has \"Type\" operation",
-            "match": {
-              "arguments": [
-                {
-                  "val": "serviceBaseURL",
-                  "offset": 31
-                },
-                {
-                  "val": "Type",
-                  "offset": 58
-                }
-              ],
-              "location": "Rest_Step_def_GET.i_want_to_execute_service_for_which_has_operation(String,String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6157600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "i Post My Json Response file \"Updatepet.json\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Updatepet.json",
-                  "offset": 30
-                }
-              ],
-              "location": "Rest_Step_def_POST.i_Post_My_Json_Response_file(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4541630399,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I submit the PUT request",
-            "match": {
-              "location": "Rest_Step_def_PUT.i_submit_the_PUT_request()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2149011800,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I validate status code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_status_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1771600,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I validate mandatory tag in response from Excel Worksheet",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_mandatory_tag_in_response_from_Excel_Worksheet()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 90924600,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I Store the Response in the Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Response_in_the_Excel()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 744700,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 13,
-                "value": "#Check if user is able to submit PUT API request and Checks StatusLine"
-              }
-            ],
-            "line": 14,
-            "name": "I validate StatusLine of the Response",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_StatusLine_of_the_Response()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2066649700,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "i Store the Status Line in Excel",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_the_Status_Line_in_Excel()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1624700,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 17,
-                "value": "#Check if user is able to submit PUT API request and Checks The Content_Type"
-              }
-            ],
-            "line": 18,
-            "name": "I validate Content-type code",
-            "match": {
-              "location": "Rest_Step_def_GET.i_validate_Content_type_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 22261100,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "i Store all my logs into File",
-            "match": {
-              "location": "Rest_Step_def_GET.i_Store_all_my_logs_into_File()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1066100,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "i end my After Scenario block",
-            "match": {
-              "location": "Rest_Step_def_GET.i_end_my_After_Scenario_block()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@All"
-          }
-        ]
-      }
-    ],
-    "name": "This feature is to check PUT API",
-    "description": "",
-    "id": "this-feature-is-to-check-put-api",
-    "keyword": "Feature",
-    "uri": "PUT_Response.feature",
+    "uri": "SOAP/Webservices.feature",
     "tags": [
       {
         "line": 1,
