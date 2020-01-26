@@ -103,10 +103,11 @@ To Test  Webserive we have two ways to test,
 1.) Through Java Client
 2.)Webservice Explorer.
 
-Webservice Explorer:
+
+```
+##Webservice Explorer:
 
 ![](Readmeimages/rest2.png)
-```
 ## Documentation
 
 * [Getting started](http://rest-assured.io/)
