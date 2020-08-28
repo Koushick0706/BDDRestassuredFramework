@@ -2,6 +2,7 @@ package com.Restapi.InitilizeBaseConfiguration;
 
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -16,6 +17,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 import com.Restapi.DataProvider.DataProvider;
+import com.Restapi.Utilites.Common_Methods;
 import com.codoid.products.exception.FilloException;
 
 import cucumber.api.java.After;
@@ -84,7 +86,31 @@ public class BaseclassInitilizer {
           
     } 
  
+    public void i_validate_the_size_of_the_logs_folder(String filedata) throws Throwable {
+   	    // Write code here that turns the phrase above into concrete actions
+   		
+   		File file = new File("src/test/resources/API Logs/"+filedata);
+		long size = 0;
+		size = Common_Methods.getFileFolderSize(file);
  
+		double sizeMB = (double) size / 1024 / 1024;
+		String s = " MB";
+		if (sizeMB < 1) {
+			sizeMB = (double) size / 1024;
+			s = " KB";
+		}
+		System.out.println(file.getName() + " : " + sizeMB + s);
+		
+		if(sizeMB>25.00)
+		{
+			System.out.println("The Folder size is bigger , please move the files to another backup folder");
+		}
+		else
+		{
+			System.out.println("The Size is " + sizeMB + " and it is not bigger , you can contunie in this folder!");
+		}
+   	   
+   	}
   
     public void afterScenarioFinish(){
         logger.info("-----------------End of Scenario-----------------");

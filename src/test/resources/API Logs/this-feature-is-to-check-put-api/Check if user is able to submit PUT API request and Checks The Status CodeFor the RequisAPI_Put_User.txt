@@ -1,0 +1,44 @@
+-----------------------Reading testcase for RequisAPI_Put_User in the Sheet Getdata--------------------------
+-----------------------Getting Request data--------------------------
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Koushick",
+    "job": "Test Engineer"
+}
+-----------------------Getting Response data--------------------------
+HTTP/1.1 200 OK
+Date: Sun, 09 Aug 2020 10:49:07 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=ddeab7a87f1c0e3db52268fddffbf74681596970147; expires=Tue, 08-Sep-20 10:49:07 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"50-3p+xX2A/nJSZMtrsFOSdOE9SbjI"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 04746fb4be00001a5658a99200000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5c00e89ace6e1a56-SIN
+Content-Encoding: gzip
+
+{
+    "name": "Koushick",
+    "job": "Test Engineer",
+    "updatedAt": "2020-08-09T10:49:07.303Z"
+}
+
+-----------------------Closing testcase for RequisAPI_Put_User in the Sheet Getdata--------------------------

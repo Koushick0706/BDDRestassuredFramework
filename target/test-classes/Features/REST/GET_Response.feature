@@ -20,7 +20,7 @@ Given i create the extent report and start a test
   #Check if user is able to submit GET API request and Checks The Content_Type
     And I validate Content-type code
     Then i Store all my logs into File
-    And i end my After Scenario block
+    Then i end my After Scenario block
     
     Examples:
     |Servicename|Sheetname|Operation|

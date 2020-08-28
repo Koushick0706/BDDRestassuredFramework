@@ -1,0 +1,43 @@
+-----------------------Reading testcase for Webservice_Post_SUBTRACT in the Sheet Getdata--------------------------
+-----------------------Getting Request data--------------------------
+Request method:	POST
+Request URI:	http://www.dneonline.com/calculator.asmx
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/xml; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <Subtract xmlns="http://tempuri.org/">
+      <intA>20</intA>
+      <intB>10</intB>
+    </Subtract>
+  </soap:Body>
+</soap:Envelope>
+-----------------------Getting Response data--------------------------
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 2.0.50727
+X-Powered-By: ASP.NET
+Date: Sun, 09 Aug 2020 10:49:36 GMT
+Content-Length: 303
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <SubtractResponse xmlns="http://tempuri.org/">
+      <SubtractResult>10</SubtractResult>
+    </SubtractResponse>
+  </soap:Body>
+</soap:Envelope>
+
+-----------------------Closing testcase for Webservice_Post_SUBTRACT in the Sheet Getdata--------------------------

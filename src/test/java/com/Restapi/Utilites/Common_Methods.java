@@ -5,15 +5,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import javax.xml.XMLConstants;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.json.JSONArray;
@@ -21,7 +17,6 @@ import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.junit.Assert;
-import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
 import com.Restapi.DataProvider.DataProvider;
@@ -29,6 +24,7 @@ import com.Restapi.InitilizeBaseConfiguration.BaseclassInitilizer;
 import com.Restapi.Step_def.Rest_Step_def_GET;
 import com.codoid.products.exception.FilloException;
 
+import cucumber.api.Scenario;
 import io.restassured.RestAssured;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
@@ -182,14 +178,14 @@ public class Common_Methods {
 		   {
 			   DataProvider.GetInstance().writeExcelData(Rest_Step_def_GET.testcase, Rest_Step_def_GET.sheetname, "Status", Exp);
 			   DataProvider.GetInstance().writeExcelData(Rest_Step_def_GET.testcase, Rest_Step_def_GET.sheetname, "Result", "Passed");
-			   Extent.testStatus("info",getResponse_content());
+			   Extent.testStatus(Statusdata.info,getResponse_content());
 			   
 		   }
 		   else
 		   {
 			   DataProvider.GetInstance().writeExcelData(Rest_Step_def_GET.testcase, Rest_Step_def_GET.sheetname, "Status", Exp);
 			   DataProvider.GetInstance().writeExcelData(Rest_Step_def_GET.testcase, Rest_Step_def_GET.sheetname, "Result", "Failed");
-			   Extent.testStatus("info", getResponse_content());
+			   Extent.testStatus(Statusdata.info, getResponse_content());
 		   } 
 	}
 	
@@ -198,11 +194,11 @@ public class Common_Methods {
 		   DataProvider.GetInstance().writeExcelData(Rest_Step_def_GET.testcase, Rest_Step_def_GET.sheetname, "Status_Line", Status);
 		   if(Status.contentEquals("HTTP/1.1 200 OK")||Status.contentEquals("HTTP/1.1 201 Created"))
 		   {
-			   Extent.testStatus("pass", "The Status is " + Status);
+			   Extent.testStatus(Statusdata.pass, "The Status is " + Status);
 		   }
 		   else
 		   {
-			   Extent.testStatus("fail", "The Status is " + Status);
+			   Extent.testStatus(Statusdata.fail, "The Status is " + Status);
 		   }
 	}
 	
@@ -217,16 +213,16 @@ public class Common_Methods {
 	public void hit_service(String url,String label) throws InterruptedException
 	{
 		
-		Extent.Childtest(label, "Payments");  
+		Extent.Childtest(label, label);  
 		RestAssured.baseURI=BaseclassInitilizer.excelHashMapValues.get(url);
 		BaseclassInitilizer.logger.info("Passing URL : " + BaseclassInitilizer.excelHashMapValues.get(url));
 		BaseclassInitilizer.httpreq=RestAssured.given().filter(new RequestLoggingFilter(BaseclassInitilizer.requestcapture)).filter(new ResponseLoggingFilter(BaseclassInitilizer.responsecapture));
-		Extent.testStatus("pass", "Passing URL : " + BaseclassInitilizer.excelHashMapValues.get(url));
+		Extent.testStatus(Statusdata.pass, "Passing URL : " + BaseclassInitilizer.excelHashMapValues.get(url));
 	}
 	
 	public void GET_request(String uri) throws InterruptedException
 	{
-	            Extent.testStatus("pass", "Passing URI : " + BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI") );
+	            Extent.testStatus(Statusdata.pass, "Passing URI : " + BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI") );
 				BaseclassInitilizer.response =BaseclassInitilizer.httpreq.header("Authorization", "Bearer ibvjqtYKqkC1HlLfBOzp9mvVv_ftD4p6zhu9").get(BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI"));
 				BaseclassInitilizer.logger.info("Passing URI : " + BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI") );
 				setResponse_content(BaseclassInitilizer.response.getBody().asString());
@@ -235,7 +231,7 @@ public class Common_Methods {
 	
 	public void POST_request(String uri) throws InterruptedException
 	{
-                Extent.testStatus("pass", "Passing URI : " + BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI") ); 
+                Extent.testStatus(Statusdata.pass, "Passing URI : " + BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI") ); 
 				BaseclassInitilizer.response =BaseclassInitilizer.httpreq.post(BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI"));
 				BaseclassInitilizer.logger.info("Passing URI : " + BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI") );
 				setResponse_content(BaseclassInitilizer.response.getBody().asString());
@@ -244,7 +240,7 @@ public class Common_Methods {
 	
 	public void PUT_request(String uri) throws InterruptedException
 	{
-                Extent.testStatus("pass", "Passing URI : " + BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI") );
+                Extent.testStatus(Statusdata.pass, "Passing URI : " + BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI") );
 				BaseclassInitilizer.response =BaseclassInitilizer.httpreq.put(BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI"));
 				BaseclassInitilizer.logger.info("Passing URI : " + BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI") );
 				setResponse_content(BaseclassInitilizer.response.getBody().asString());
@@ -278,6 +274,7 @@ public class Common_Methods {
 	        }
 	}
 	
+	
 	public void ReadXMLFile(String arg) throws ParserConfigurationException, SAXException, IOException
 	{
 		String xmlfiles = "src/test/resources/XML Files/"+arg;
@@ -301,6 +298,22 @@ public class Common_Methods {
           e.printStackTrace();
       } 	
 	}
+	
+	public static long getFileFolderSize(File dir) {
+		long size = 0;
+		if (dir.isDirectory()) {
+			for (File file : dir.listFiles()) {
+				if (file.isFile()) {
+					size += file.length();
+				} else
+					size += getFileFolderSize(file);
+			}
+		} else if (dir.isFile()) {
+			size += dir.length();
+		}
+		return size;
+	}
+
 
 	public static String getResponse_content() {
 		return response_content;

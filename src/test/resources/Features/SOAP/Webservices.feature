@@ -5,7 +5,7 @@ Background: Creating Extent reports
 
 Given i create the extent report and start a test
 
-  Scenario Outline: Check if user is able to submit GET API request and Checks The Status Code
+  Scenario Outline: Check if user is able to submit API request and Checks The Status Code for SOAP Operation
     Given i start my before scenario block with <Servicename>and<Sheetname>
     Then I want to execute service for "serviceBaseURL" which has <Operation> operation
     And i Submit my SOAP request for <XML files>
@@ -19,7 +19,7 @@ Given i create the extent report and start a test
   #Check if user is able to submit GET API request and Checks The Content_Type
     And I validate Content-type code
     Then i Store all my logs into File
-    And i end my After Scenario block
+    Then i end my After Scenario block
     
     Examples:
     |Servicename|Sheetname|Operation|XML files|

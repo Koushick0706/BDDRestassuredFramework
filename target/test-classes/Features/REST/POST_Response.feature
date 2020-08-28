@@ -17,7 +17,7 @@ Scenario Outline: Check if user is able to submit POST API request and Checks Th
   #Check if user is able to submit POST API request and Checks The Content_Type
     And I validate Content-type code
     Then i Store all my logs into File
-     And i end my After Scenario block
+     Then i end my After Scenario block
      Examples:
     |Servicename|Sheetname|Jsonfile|Operation|
     |"RequisAPI_Post_User"|"Getdata"|"Createuser.json"|"Type"|

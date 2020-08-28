@@ -25,6 +25,9 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+import gherkin.formatter.JSONFormatter;
 
 
 
@@ -32,6 +35,7 @@ public class Extent
 {
 //public static ExtentHtmlReporter reporter;
 	public static ExtentHtmlReporter reporter;
+	public static ExtentSparkReporter reporter1;
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	public static ExtentTest child;
@@ -50,6 +54,7 @@ public class Extent
 		{
 			 System.out.println("loging in to browser");
 			 reporter= new ExtentHtmlReporter(reportpath+"ExtentReport.html");
+			 //formatter = new JsonFormatter(reportpath+"ExtentReport.html");
 			 //reporter.setAppendExisting(true);
 			 reporter.loadXMLConfig("Extent-Config.xml");
 			 extent = new ExtentReports();
@@ -64,34 +69,39 @@ public class Extent
 			test=extent.createTest(testcasename);
 		}
 		
-		public static void testStatus(String st,String data) throws InterruptedException
+		
+		public static void testStatus(Statusdata datatype,String data) throws InterruptedException
 		{
-		switch( st)
-		{
-		case "pass" :
-//			test=extent.createTest(testcasename);
+		switch (datatype) {
+		case pass :
 			Assert.assertTrue(true);
 			Thread.sleep(2000);
 			Insidechild.pass(MarkupHelper.createCodeBlock(data));
 			break;
-		case "fail" :
-//			test=extent.createTest(testcasename);
+		case fail :
+
 			Assert.assertTrue(true);
 			Thread.sleep(2000);
 			Insidechild.fail(MarkupHelper.createCodeBlock(data));
 			break;
-		case "skip" :
-//			test=extent.createTest(testcasename);
+		case skip :
 			Assert.assertTrue(true);
 			Thread.sleep(2000);
 			Insidechild.skip(MarkupHelper.createCodeBlock(data));
 			break;
 			
-		case "info":
+		case info:
 			Assert.assertTrue(true);
 			Thread.sleep(2000);
+			if(data.startsWith("{"))
+			{
 			Insidechild.log(Status.INFO, MarkupHelper.createCodeBlock(data, CodeLanguage.JSON));
+			}
+			else
+			{
 			Insidechild.log(Status.INFO, MarkupHelper.createCodeBlock(data, CodeLanguage.XML));
+			}
+			
 		}
 		}
 		void configfile() throws IOException

@@ -40,17 +40,32 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class Rest_Step_def_GET {
+	
+	
 	public static String Status_Line;
 
 	public static String testcase;
 	public static String sheetname;
+	public static String name;
+	public static String logfile;
 	private static boolean flag= false;
 	
 	@Before
-	public void createExtentreporttest()
+	public void createExtentreporttest(Scenario scenario)
 	{
           System.out.println("------------------Starting the Execution-----------------");
+          name = scenario.getName();
+          String split = scenario.getId();
+          String[] data = split.split(";");
+          logfile = data[0];
+          System.out.println(logfile);
+  		  System.out.println("The name is " + "------>" + name);
+  		  
+  		  
+  		  
+  
 	}
+
 	
 	@Given("^i create the extent report and start a test$")
 	public void i_create_the_extent_report_and_start_a_test() throws Throwable {
@@ -59,12 +74,13 @@ public class Rest_Step_def_GET {
 		{
 		flag= true;
 		Extent.reportGeneration("Reports/");
-		Extent.CreateTest("RESTAPI");
+		Extent.CreateTest(logfile);
 		Extent.setSystemInfo("Windows10Home", "Chrome");
 		System.out.println("Creating Test in Extent reports....");
 		}
 		else
 		{
+			
 			System.out.println("Already created!");
 		}
 	}
@@ -156,22 +172,37 @@ public class Rest_Step_def_GET {
    	public void i_Store_all_my_logs_into_File() throws Throwable {
    	    // Write code here that turns the phrase above into concrete actions
       String time = Common_Methods.timeStamp();
+      
+      //Create a directory
+      String path = "src/test/resources/API Logs/"+logfile;
+      File file = new File(path);
+      boolean bool = file.mkdir();
+      if(bool){
+         System.out.println("Directory created successfully");
+      }else{
+         System.out.println("Sorry! Directory already available.");
+      }
 
-     File fil = new File("src/test/resources/API Logs/"+time+"log.txt");
+
+      File fil = new File(path+"/"+name+ "For the "+testcase+""+time+".txt");
      FileWriter writer = null;
    	    
    	    try
    	    {
    	    	if(fil.createNewFile())
    	    	{
-   	    	writer= new FileWriter(fil);
+   	    	writer= new FileWriter(fil,true);
+   	    	writer.write("-----------------------Reading testcase for " +testcase+" in the Sheet "+sheetname+"--------------------------");
+   	    	writer.write("\n");
    	    	writer.write("-----------------------Getting Request data--------------------------");
    	    	writer.write("\n");
    	    	writer.write(BaseclassInitilizer.requestwriter.toString());
    	  	    writer.write("-----------------------Getting Response data--------------------------");
    	    	writer.write("\n");
    	  	    writer.write(BaseclassInitilizer.responsewriter.toString());
-   	   
+   	  	    writer.write("\n");
+   	    	writer.write("-----------------------Closing testcase for " +testcase+" in the Sheet "+sheetname+"--------------------------");
+
    	    	}
    	    	else
    	    	{
@@ -184,6 +215,9 @@ public class Rest_Step_def_GET {
 		}
    	}
 
+  
+   	
+
    	
     
    	@Then("^i end my After Scenario block$")
@@ -194,8 +228,9 @@ public class Rest_Step_def_GET {
    	}
     
    	@After
-    public void closereport()
+    public void closereport() throws Throwable
     {
+   		BaseclassInitilizer.getInstance().i_validate_the_size_of_the_logs_folder(logfile);
     	Extent.endReport();
     	System.out.println("--------------------Ending the Execution-----------------");
     }

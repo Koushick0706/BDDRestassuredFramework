@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="15" time="154.961627">
-<testcase classname="This feature is to check GET API" name="Check if user is able to submit GET API request and Checks The Status Code" time="15.570695">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="14" time="142.274182">
+<testcase classname="This feature is to check GET API" name="Check if user is able to submit GET API request and Checks The Status Code" time="15.678557">
 <system-out><![CDATA[Given i create the extent report and start a test...........................passed
 Given i start my before scenario block with "RequisAPI_Get_AllUser"and"Getdata".passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
@@ -12,10 +12,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check GET API" name="Check if user is able to submit GET API request and Checks The Status Code 2" time="11.217999">
+<testcase classname="This feature is to check GET API" name="Check if user is able to submit GET API request and Checks The Status Code 2" time="9.884144">
 <system-out><![CDATA[Given i create the extent report and start a test...........................passed
 Given i start my before scenario block with "RequisAPI_Get_SpecificUser"and"Getdata".passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
@@ -27,10 +27,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check GET API" name="Check if user is able to submit GET API request and Checks The Status Code 3" time="10.414977">
+<testcase classname="This feature is to check GET API" name="Check if user is able to submit GET API request and Checks The Status Code 3" time="10.64997">
 <system-out><![CDATA[Given i create the extent report and start a test...........................passed
 Given i start my before scenario block with "Swagger_Get_Specificpet"and"Getdata".passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
@@ -42,10 +42,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check GET API" name="Check if user is able to submit GET API request and Checks The Status Code 4" time="9.962513">
+<testcase classname="This feature is to check GET API" name="Check if user is able to submit GET API request and Checks The Status Code 4" time="10.475996">
 <system-out><![CDATA[Given i create the extent report and start a test...........................passed
 Given i start my before scenario block with "Swagger_Get_Inventory"and"Getdata".passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
@@ -57,10 +57,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check GET API" name="Check if user is able to submit GET API request and Checks The Status Code 5" time="9.796471">
+<testcase classname="This feature is to check GET API" name="Check if user is able to submit GET API request and Checks The Status Code 5" time="9.229583">
 <system-out><![CDATA[Given i create the extent report and start a test...........................passed
 Given i start my before scenario block with "GORestAPI_Get_User"and"Getdata".passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
@@ -72,10 +72,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check POST API" name="Check if user is able to submit POST API request and Checks The Status Code" time="9.815755">
+<testcase classname="This feature is to check POST API" name="Check if user is able to submit POST API request and Checks The Status Code" time="9.655106">
 <system-out><![CDATA[Given i start my before scenario block with "RequisAPI_Post_User"and"Getdata".passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
 When i Post My Json Response file "Createuser.json".........................passed
@@ -87,10 +87,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check POST API" name="Check if user is able to submit POST API request and Checks The Status Code 2" time="9.993852">
+<testcase classname="This feature is to check POST API" name="Check if user is able to submit POST API request and Checks The Status Code 2" time="10.330924">
 <system-out><![CDATA[Given i start my before scenario block with "Swagger_Post_Pet"and"Getdata"..passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
 When i Post My Json Response file "Postpet.json"............................passed
@@ -102,10 +102,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check POST API" name="Check if user is able to submit POST API request and Checks The Status Code 3" time="9.821828">
+<testcase classname="This feature is to check POST API" name="Check if user is able to submit POST API request and Checks The Status Code 3" time="10.231983">
 <system-out><![CDATA[Given i start my before scenario block with "Swagger_Post_Inventory"and"Getdata".passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
 When i Post My Json Response file "SwaggerStore.json".......................passed
@@ -117,10 +117,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check PUT API" name="Check if user is able to submit PUT API request and Checks The Status Code" time="9.586045">
+<testcase classname="This feature is to check PUT API" name="Check if user is able to submit PUT API request and Checks The Status Code" time="9.525079">
 <system-out><![CDATA[Given i start my before scenario block with "RequisAPI_Put_User"and"Getdata".passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
 When i Post My Json Response file "updateuser.json".........................passed
@@ -132,10 +132,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check PUT API" name="Check if user is able to submit PUT API request and Checks The Status Code 2" time="9.922972">
+<testcase classname="This feature is to check PUT API" name="Check if user is able to submit PUT API request and Checks The Status Code 2" time="10.12378">
 <system-out><![CDATA[Given i start my before scenario block with "Swagger_Put_Pet"and"Getdata"...passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
 When i Post My Json Response file "Updatepet.json"..........................passed
@@ -147,17 +147,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check Webservice Testing" name="Checking weather Webserive is working as per Expected" time="11.436258">
-<system-out><![CDATA[Given i start my before scenario block with "Webservice_Post_ADD"and"Getdata".passed
-And i hit the webservice....................................................passed
-Then i check the response and status of the service.........................passed
-And i end my After Scenario block...........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="This feature is to check Webservice Testing" name="Check if user is able to submit GET API request and Checks The Status Code" time="9.402993">
+<testcase classname="This feature is to check Webservice Testing" name="Check if user is able to submit API request and Checks The Status Code for SOAP Operation" time="9.197798">
 <system-out><![CDATA[Given i create the extent report and start a test...........................passed
 Given i start my before scenario block with "Webservice_Post_ADD"and"Getdata".passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
@@ -169,10 +162,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check Webservice Testing" name="Check if user is able to submit GET API request and Checks The Status Code 2" time="9.472493">
+<testcase classname="This feature is to check Webservice Testing" name="Check if user is able to submit API request and Checks The Status Code for SOAP Operation 2" time="9.082166">
 <system-out><![CDATA[Given i create the extent report and start a test...........................passed
 Given i start my before scenario block with "Webservice_Post_SUBTRACT"and"Getdata".passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
@@ -184,10 +177,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check Webservice Testing" name="Check if user is able to submit GET API request and Checks The Status Code 3" time="9.296296">
+<testcase classname="This feature is to check Webservice Testing" name="Check if user is able to submit API request and Checks The Status Code for SOAP Operation 3" time="9.074125">
 <system-out><![CDATA[Given i create the extent report and start a test...........................passed
 Given i start my before scenario block with "Webservice_Post_DIVIDE"and"Getdata".passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
@@ -199,10 +192,10 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature is to check Webservice Testing" name="Check if user is able to submit GET API request and Checks The Status Code 4" time="9.25048">
+<testcase classname="This feature is to check Webservice Testing" name="Check if user is able to submit API request and Checks The Status Code for SOAP Operation 4" time="9.134971">
 <system-out><![CDATA[Given i create the extent report and start a test...........................passed
 Given i start my before scenario block with "Webservice_Post_MULTIPLY"and"Getdata".passed
 Then I want to execute service for "serviceBaseURL" which has "Type" operation.passed
@@ -214,7 +207,7 @@ And I validate StatusLine of the Response...................................pass
 Then i Store the Status Line in Excel.......................................passed
 And I validate Content-type code............................................passed
 Then i Store all my logs into File..........................................passed
-And i end my After Scenario block...........................................passed
+Then i end my After Scenario block..........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

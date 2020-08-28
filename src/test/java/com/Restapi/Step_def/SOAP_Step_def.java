@@ -3,6 +3,7 @@ package com.Restapi.Step_def;
 import com.Restapi.InitilizeBaseConfiguration.BaseclassInitilizer;
 import com.Restapi.Utilites.Common_Methods;
 import com.Restapi.Utilites.Extent;
+import com.Restapi.Utilites.Statusdata;
 import com.calculatorservice.CalculatorLocator;
 import com.calculatorservice.CalculatorSoap;
 
@@ -53,10 +54,10 @@ public class SOAP_Step_def {
 	   BaseclassInitilizer.logger.info("The div Result is : " + div);
 	   
 	   
-	   Extent.testStatus("pass", "The add Result is : " + adddata);
-	   Extent.testStatus("pass", "The sub Result is : " + subdata);
-	   Extent.testStatus("pass", "The mul Result is : " + muldata);
-	   Extent.testStatus("pass", "The div Result is : " + divdata);
+	   Extent.testStatus(Statusdata.pass, "The add Result is : " + adddata);
+	   Extent.testStatus(Statusdata.pass, "The sub Result is : " + subdata);
+	   Extent.testStatus(Statusdata.pass, "The mul Result is : " + muldata);
+	   Extent.testStatus(Statusdata.pass, "The div Result is : " + divdata);
 	   
 	   
 	} 
