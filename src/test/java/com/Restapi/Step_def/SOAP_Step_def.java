@@ -8,9 +8,7 @@ import com.calculatorservice.CalculatorLocator;
 import com.calculatorservice.CalculatorSoap;
 
 import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import io.restassured.RestAssured;
 
 public class SOAP_Step_def {
 	

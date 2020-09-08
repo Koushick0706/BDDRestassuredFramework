@@ -1,0 +1,43 @@
+-----------------------Reading testcase for RequisAPI_Post_User in the Sheet Getdata--------------------------
+-----------------------Getting Request data--------------------------
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Koushick Sudharsanam",
+    "job": "QA Engineer"
+}
+-----------------------Getting Response data--------------------------
+HTTP/1.1 201 Created
+Date: Sun, 06 Sep 2020 12:10:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 101
+Connection: keep-alive
+Set-Cookie: __cfduid=d3cc15598653ec683766cc9decaf0006f1599394248; expires=Tue, 06-Oct-20 12:10:48 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"65-bGW/9hkN1UMmOQLvUNzB7KYB23g"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0504ec8ec70000e135560b8200000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 5ce816c47b6de135-BOM
+
+{
+    "name": "Koushick Sudharsanam",
+    "job": "QA Engineer",
+    "id": "271",
+    "createdAt": "2020-09-06T12:10:48.736Z"
+}
+
+-----------------------Closing testcase for RequisAPI_Post_User in the Sheet Getdata--------------------------

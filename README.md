@@ -12,12 +12,11 @@ languages into the Java domain.
 Here's an example of how to make a GET request and validate the JSON response using above Project:
 
 ```java
-RestAssured.baseURI=BaseclassInitilizer.excelHashMapValues.get(url);
-BaseclassInitilizer.httpreq=RestAssured.given().filter(new RequestLoggingFilter(BaseclassInitilizer.requestcapture)).filter(new ResponseLoggingFilter(BaseclassInitilizer.responsecapture));
-BaseclassInitilizer.response =BaseclassInitilizer.httpreq.get(BaseclassInitilizer.excelHashMapValues.get("serviceBaseURI"));
+// first hit the service then get the response for the get request
+Common_Methods.Get_Instance().hit_service(arg1, Resttype);
+Common_Methods.Get_Instance().GET_request();
 
-//The below Verify_JSON_Data is used to check the JSON Mandatory fields are present or Not.
-Common_Methods.Get_Instance().Verify_JSON_Data(Common_Methods.getResponse_content(), data);
+//Note: All GET,POST,PUT,DELETE resources are called from Excel through Gherkin
 ```
 
 Using parameters:
@@ -32,24 +31,12 @@ then().
     body(containsString("OK"));
 ```
 
-Need to Read JSON ? Here is the below Solution:
+Need to Read JSON File ? Here is the below Solution:
 
 ```java
- //Below is sample snippet to Read JSON
- JSONObject obj = new JSONObject(Response); 
-		   Iterator<String> keyset = obj.keys(); 
+ //Below is sample snippet to Read JSON using GSON
+call this method to read JSON file -> ReadJSONFile(String arg1)
 
-			while (keyset.hasNext())
-
-			{
-
-				key = (String) keyset.next();
-
-				value = obj.get(key);
-
-				System.out.print("\n Key is : " + key);
-                  map.put(key, value);
-              }
 ```
 
 Need authentication? REST Assured provides several authentication mechanisms:
@@ -76,8 +63,9 @@ public static void setResponse_content(String response_content) {
 
 REST Assured supports any HTTP method but has explicit support for *POST*, *GET*, *PUT*, *DELETE*, *OPTIONS*, *PATCH* and *HEAD* and includes specifying and validating e.g. parameters, headers, cookies and body easily.
 
-## Need Reporting ? Extent Reports Provides you Excellect way of Reporting
-![](Readmeimages/rest.png)
+## Need Reporting ? 
+## Allure and Extent Reports Provides you Excellect way of Reporting
+![](Readmeimages/allure.PNG)
 ![](Readmeimages/rest1.png)
 
 ## Need to check Mandatory fileds in API?
@@ -88,7 +76,7 @@ Response--> Our API JSON Response
 data --> The data need to checked weather it is present or not inside JSON.
 //The above method present inside the project is used to split JSON and JSON Array weather the Mandatory field is Present or Not and give you report inside Extent reports weather it is pass or Fail.
 ```
-## Need to Test SOAP or WEBSERVICE ?
+## Need to Test SOAP in Restassured?
 
 ```java
 Common_Methods.Get_Instance().ReadXMLFile(arg1);
@@ -98,16 +86,8 @@ ReadXMLFile--> it is used read the XMLfile and post,
 BaseclassInitilizer.httpreq.headers("Content-Type","text/xml");
 BaseclassInitilizer.httpreq.body( ReadXMLFile.toString());
 
-FOR WEBSERVICE:
-To Test  Webserive we have two ways to test,
-1.) Through Java Client
-2.)Webservice Explorer.
-
-
 ```
-##Webservice Explorer:
 
-![](Readmeimages/rest2.png)
 ## Documentation
 
 * [Getting started](http://rest-assured.io/)

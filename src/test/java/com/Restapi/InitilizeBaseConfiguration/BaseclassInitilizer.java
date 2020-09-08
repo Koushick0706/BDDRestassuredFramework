@@ -73,7 +73,9 @@ public class BaseclassInitilizer {
  		 BufferedReader reader_2 = new BufferedReader(new FileReader(prop.getProperty("DB_Data")));
  		 prop.load(reader_2);
  		 BufferedReader reader_3 = new BufferedReader(new FileReader(prop.getProperty("Directory")));
- 		 prop.load(reader_3);
+		 prop.load(reader_3);
+		 BufferedReader reader_4 = new BufferedReader(new FileReader(prop.getProperty("response")));
+ 		 prop.load(reader_4);
  		 System.out.println(prop);
  		excelHashMapValues = DataProvider.GetInstance().extractExcelData(testCaseID, sheetName);
  		

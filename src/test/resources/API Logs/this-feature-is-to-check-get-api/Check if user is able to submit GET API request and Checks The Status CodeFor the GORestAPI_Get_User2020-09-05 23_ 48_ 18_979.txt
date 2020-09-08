@@ -1,0 +1,234 @@
+-----------------------Reading testcase for GORestAPI_Get_User in the Sheet Getdata--------------------------
+-----------------------Getting Request data--------------------------
+Request method:	GET
+Request URI:	https://gorest.co.in/public-api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer ibvjqtYKqkC1HlLfBOzp9mvVv_ftD4p6zhu9
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+-----------------------Getting Response data--------------------------
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 05 Sep 2020 18:18:14 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+ETag: W/"699bf84aab18878462661cd84831c733"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: f59bbc13-05bb-4783-bc61-9a1334a4ddb1
+X-Runtime: 0.006036
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+X-Frame-Options: sameorigin
+Expect-CT: enforce; max-age=3600
+Feature-Policy: geolocation none;midi none;notifications none;push none;sync-xhr none;microphone none;camera none;magnetometer none;gyroscope none;speaker self;vibrate none;fullscreen self;payment none;
+Content-Encoding: gzip
+
+{
+    "code": 200,
+    "meta": {
+        "pagination": {
+            "total": 1618,
+            "pages": 81,
+            "page": 1,
+            "limit": 20
+        }
+    },
+    "data": [
+        {
+            "id": 100,
+            "name": "Aagam Panicker",
+            "email": "aagam_panicker@ortiz.net",
+            "gender": "Female",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:05.844+05:30",
+            "updated_at": "2020-09-05T03:50:05.844+05:30"
+        },
+        {
+            "id": 102,
+            "name": "Gandharva Adiga",
+            "email": "adiga_gandharva@marvin.io",
+            "gender": "Male",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:05.859+05:30",
+            "updated_at": "2020-09-05T03:50:05.859+05:30"
+        },
+        {
+            "id": 103,
+            "name": "Bhagwati Bhattathiri",
+            "email": "bhattathiri_bhagwati@botsford.biz",
+            "gender": "Female",
+            "status": "Inactive",
+            "created_at": "2020-09-05T03:50:05.874+05:30",
+            "updated_at": "2020-09-05T03:50:05.874+05:30"
+        },
+        {
+            "id": 104,
+            "name": "Allasani Peddana",
+            "email": "allasani.peddana@15ce.com",
+            "gender": "Male",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:05.902+05:30",
+            "updated_at": "2020-09-05T22:32:23.547+05:30"
+        },
+        {
+            "id": 105,
+            "name": "Swapnil Prajapat",
+            "email": "prajapat_swapnil@weissnat-conn.net",
+            "gender": "Male",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:05.939+05:30",
+            "updated_at": "2020-09-05T03:50:05.939+05:30"
+        },
+        {
+            "id": 106,
+            "name": "Prof. Chakravarti Mehra",
+            "email": "chakravarti_prof_mehra@sauer-huels.net",
+            "gender": "Male",
+            "status": "Inactive",
+            "created_at": "2020-09-05T03:50:05.959+05:30",
+            "updated_at": "2020-09-05T03:50:05.959+05:30"
+        },
+        {
+            "id": 108,
+            "name": "Garud Chaturvedi",
+            "email": "chaturvedi_garud@swaniawski.com",
+            "gender": "Female",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:05.981+05:30",
+            "updated_at": "2020-09-05T03:50:05.981+05:30"
+        },
+        {
+            "id": 109,
+            "name": "Vasanti Guneta",
+            "email": "guneta_vasanti@beatty-lang.biz",
+            "gender": "Female",
+            "status": "Inactive",
+            "created_at": "2020-09-05T03:50:06.004+05:30",
+            "updated_at": "2020-09-05T03:50:06.004+05:30"
+        },
+        {
+            "id": 110,
+            "name": "Arya Abbott Ret.",
+            "email": "abbott_ret_arya@corwin.org",
+            "gender": "Male",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:06.020+05:30",
+            "updated_at": "2020-09-05T03:50:06.020+05:30"
+        },
+        {
+            "id": 111,
+            "name": "Gati Chopra",
+            "email": "chopra_gati@stroman.co",
+            "gender": "Male",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:06.031+05:30",
+            "updated_at": "2020-09-05T03:50:06.031+05:30"
+        },
+        {
+            "id": 112,
+            "name": "Lal Joshi",
+            "email": "lal_joshi@mcclure.biz",
+            "gender": "Male",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:06.054+05:30",
+            "updated_at": "2020-09-05T03:50:06.054+05:30"
+        },
+        {
+            "id": 113,
+            "name": "Baidehi Sharma",
+            "email": "baidehi_sharma@mann.net",
+            "gender": "Male",
+            "status": "Inactive",
+            "created_at": "2020-09-05T03:50:06.075+05:30",
+            "updated_at": "2020-09-05T03:50:06.075+05:30"
+        },
+        {
+            "id": 114,
+            "name": "Jagdeep Kaniyar MD",
+            "email": "md_kaniyar_jagdeep@pouros-greenholt.co",
+            "gender": "Female",
+            "status": "Inactive",
+            "created_at": "2020-09-05T03:50:06.089+05:30",
+            "updated_at": "2020-09-05T03:50:06.089+05:30"
+        },
+        {
+            "id": 115,
+            "name": "Prathamesh Jha",
+            "email": "prathamesh_jha@wehner.name",
+            "gender": "Male",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:06.107+05:30",
+            "updated_at": "2020-09-05T03:50:06.107+05:30"
+        },
+        {
+            "id": 116,
+            "name": "Bhooshan Bhat",
+            "email": "bhooshan_bhat@berge-windler.name",
+            "gender": "Male",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:06.127+05:30",
+            "updated_at": "2020-09-05T03:50:06.127+05:30"
+        },
+        {
+            "id": 117,
+            "name": "Adripathi Nair V",
+            "email": "nair_v_adripathi@kris.name",
+            "gender": "Female",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:06.154+05:30",
+            "updated_at": "2020-09-05T03:50:06.154+05:30"
+        },
+        {
+            "id": 118,
+            "name": "Ms. Sarala Reddy",
+            "email": "reddy_ms_sarala@oberbrunner.org",
+            "gender": "Male",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:06.170+05:30",
+            "updated_at": "2020-09-05T03:50:06.170+05:30"
+        },
+        {
+            "id": 119,
+            "name": "Malti Gupta V",
+            "email": "v_malti_gupta@thompson.biz",
+            "gender": "Male",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:06.185+05:30",
+            "updated_at": "2020-09-05T03:50:06.185+05:30"
+        },
+        {
+            "id": 120,
+            "name": "Mrs. Deeksha Varman",
+            "email": "deeksha_varman_mrs@blanda.org",
+            "gender": "Male",
+            "status": "Inactive",
+            "created_at": "2020-09-05T03:50:06.204+05:30",
+            "updated_at": "2020-09-05T03:50:06.204+05:30"
+        },
+        {
+            "id": 122,
+            "name": "Mr. Avani Reddy",
+            "email": "mr_reddy_avani@quitzon.org",
+            "gender": "Female",
+            "status": "Active",
+            "created_at": "2020-09-05T03:50:06.232+05:30",
+            "updated_at": "2020-09-05T03:50:06.232+05:30"
+        }
+    ]
+}
+
+-----------------------Closing testcase for GORestAPI_Get_User in the Sheet Getdata--------------------------

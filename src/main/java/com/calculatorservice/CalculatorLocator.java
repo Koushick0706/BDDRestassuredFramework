@@ -9,6 +9,11 @@ package com.calculatorservice;
 
 public class CalculatorLocator extends org.apache.axis.client.Service implements com.calculatorservice.Calculator {
 
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
+
     public CalculatorLocator() {
     }
 

@@ -1,24 +1,8 @@
 package com.Restapi.Step_def;
-
-
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Iterator;
-
-import org.json.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-
-import com.Restapi.InitilizeBaseConfiguration.BaseclassInitilizer;
 import com.Restapi.Utilites.Common_Methods;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import io.restassured.http.Method;
 
 public class Rest_Step_def_POST {
 	

@@ -1,0 +1,37 @@
+-----------------------Reading testcase for RequisAPI_Get_SpecificUser in the Sheet Getdata--------------------------
+-----------------------Getting Request data--------------------------
+Request method:	GET
+Request URI:	https://reqres.in/api/users/23
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer ibvjqtYKqkC1HlLfBOzp9mvVv_ftD4p6zhu9
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+-----------------------Getting Response data--------------------------
+HTTP/1.1 404 Not Found
+Date: Mon, 07 Sep 2020 16:52:41 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Set-Cookie: __cfduid=db6e636aaded7ca88cab040c6c07c44761599497560; expires=Wed, 07-Oct-20 16:52:40 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: BYPASS
+cf-request-id: 050b14f9cc0000e1399f0ce200000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5cf1f10948eae139-BOM
+
+{
+    
+}
+
+-----------------------Closing testcase for RequisAPI_Get_SpecificUser in the Sheet Getdata--------------------------

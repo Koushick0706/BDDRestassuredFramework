@@ -16,7 +16,7 @@ public class DataProvider {
 	private static final DataProvider obj = new DataProvider();
 	
 	private DataProvider() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public static DataProvider GetInstance()

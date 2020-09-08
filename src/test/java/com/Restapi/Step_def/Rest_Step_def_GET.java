@@ -3,26 +3,11 @@ package com.Restapi.Step_def;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.PrintStream;
-import java.io.StringWriter;
-import java.sql.Timestamp;
-import java.time.Instant;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-
-import org.apache.commons.io.output.WriterOutputStream;
-import org.json.JSONObject;
-import org.junit.Assert;
 
 import com.Restapi.DataProvider.DataProvider;
 import com.Restapi.InitilizeBaseConfiguration.BaseclassInitilizer;
 import com.Restapi.Utilites.Common_Methods;
 import com.Restapi.Utilites.Extent;
-import com.codoid.products.exception.FilloException;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -31,12 +16,6 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import io.restassured.RestAssured;
-import io.restassured.filter.log.RequestLoggingFilter;
-import io.restassured.filter.log.ResponseLoggingFilter;
-import io.restassured.http.Method;
-import io.restassured.specification.RequestLogSpecification;
-import io.restassured.specification.RequestSpecification;
 
 
 public class Rest_Step_def_GET {
@@ -105,7 +84,7 @@ public class Rest_Step_def_GET {
 	@When("^I submit the GET request as per the data in Excel Worksheet$")
 	public void i_submit_the_GET_request_as_per_the_data_in_Excel_Worksheet() throws Throwable {
 		//passing the URI
-		Common_Methods.Get_Instance().GET_request("serviceBaseURI");	
+		Common_Methods.Get_Instance().GET_request();	
 	}
 
 	@And("^I validate status code$")
@@ -213,12 +192,17 @@ public class Rest_Step_def_GET {
    	    catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-   	}
+	   }
+	   
+	@And("^i store my response to property file$")
+		public void i_store_my_response_to_property_file() throws Throwable 
+		{
+			int status = BaseclassInitilizer.response.getStatusCode();
+			String Mystatus = String.valueOf(status);
+			Common_Methods.Get_Instance().ReadResponseStoretoProperty(Common_Methods.getResponse_content(), Mystatus);
+			
+		}
 
-  
-   	
-
-   	
     
    	@Then("^i end my After Scenario block$")
    	public void i_end_my_After_Scenario_block() throws Throwable {
@@ -232,7 +216,7 @@ public class Rest_Step_def_GET {
     {
    		BaseclassInitilizer.getInstance().i_validate_the_size_of_the_logs_folder(logfile);
     	Extent.endReport();
-    	System.out.println("--------------------Ending the Execution-----------------");
+		System.out.println("--------------------Ending the Execution-----------------");
     }
 	
 }
