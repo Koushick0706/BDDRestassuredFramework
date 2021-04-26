@@ -18,7 +18,7 @@
     <json.version>20190722</json.version>
     <fillo.version>1.21</fillo.version>
     <apachelang3.version>3.7</apachelang3.version>
-    <apacheio.version>2.6</apacheio.version>
+    <apacheio.version>2.7</apacheio.version>
   </properties>
 
   <dependencies>
