@@ -98,3 +98,49 @@
 2020-09-08 21:28:25 INFO  API Testing:127 - Getting Excel Data : application/json; charset=utf-8
 
 2020-09-08 21:28:25 INFO  API Testing:118 - -----------------End of Scenario-----------------
+2023-07-04 22:38:59 INFO  API Testing:66 - -----------------Start of Scenario-----------------
+2023-07-04 22:39:00 INFO  API Testing:163 - Passing URL : https://bookstore.toolsqa.com
+2023-07-04 22:39:07 INFO  API Testing:221 - Passing URI : /Account/v1/User
+2023-07-04 22:39:07 INFO  API Testing:223 - Getting Response Content {"code":"1204","message":"User exists!"}
+2023-07-04 22:39:07 INFO  API Testing:95 - Getting Status Code : 406
+2023-07-04 22:39:09 INFO  API Testing:140 - Getting Status Line HTTP/1.1 406 Not Acceptable
+2023-07-04 22:39:12 INFO  API Testing:123 - The Content_type is : application/json; charset=utf-8
+2023-07-04 22:39:12 INFO  API Testing:125 - Getting Excel Data : 
+2023-07-04 22:39:12 INFO  API Testing:118 - -----------------End of Scenario-----------------
+2023-07-04 22:39:12 INFO  API Testing:66 - -----------------Start of Scenario-----------------
+2023-07-04 22:39:12 INFO  API Testing:163 - Passing URL : https://bookstore.toolsqa.com
+2023-07-04 22:39:17 INFO  API Testing:221 - Passing URI : /Account/v1/GenerateToken
+2023-07-04 22:39:17 INFO  API Testing:223 - Getting Response Content {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImpzaW5sb3ZlIiwicGFzc3dvcmQiOiJKc2lubG92ZUAhMTU1IiwiaWF0IjoxNjg4NDkwNTU3fQ.OzmGVKvp9j8w9RM0piiQ6lQAvxatRmpj__GDg0uOOYM","expires":"2023-07-11T17:09:17.613Z","status":"Success","result":"User authorized successfully."}
+2023-07-04 22:39:17 INFO  API Testing:95 - Getting Status Code : 200
+2023-07-04 22:39:19 INFO  API Testing:140 - Getting Status Line HTTP/1.1 200 OK
+2023-07-04 22:39:22 INFO  API Testing:123 - The Content_type is : application/json; charset=utf-8
+2023-07-04 22:39:22 INFO  API Testing:125 - Getting Excel Data : 
+2023-07-04 22:39:22 INFO  API Testing:118 - -----------------End of Scenario-----------------
+2023-07-04 22:39:22 INFO  API Testing:66 - -----------------Start of Scenario-----------------
+2023-07-04 22:39:22 INFO  API Testing:163 - Passing URL : https://bookstore.toolsqa.com
+2023-07-04 22:39:27 INFO  API Testing:221 - Passing URI : /Account/v1/Authorized
+2023-07-04 22:39:27 INFO  API Testing:223 - Getting Response Content true
+2023-07-04 22:39:27 INFO  API Testing:95 - Getting Status Code : 200
+2023-07-04 22:59:24 INFO  API Testing:66 - -----------------Start of Scenario-----------------
+2023-07-04 22:59:26 INFO  API Testing:163 - Passing URL : https://bookstore.toolsqa.com
+2023-07-04 22:59:32 INFO  API Testing:221 - Passing URI : /Account/v1/User
+2023-07-04 22:59:32 INFO  API Testing:223 - Getting Response Content {"code":"1204","message":"User exists!"}
+2023-07-04 22:59:32 INFO  API Testing:95 - Getting Status Code : 406
+2023-07-04 22:59:35 INFO  API Testing:140 - Getting Status Line HTTP/1.1 406 Not Acceptable
+2023-07-04 22:59:37 INFO  API Testing:123 - The Content_type is : application/json; charset=utf-8
+2023-07-04 22:59:37 INFO  API Testing:125 - Getting Excel Data : 
+2023-07-04 22:59:37 INFO  API Testing:118 - -----------------End of Scenario-----------------
+2023-07-04 22:59:38 INFO  API Testing:66 - -----------------Start of Scenario-----------------
+2023-07-04 22:59:38 INFO  API Testing:163 - Passing URL : https://bookstore.toolsqa.com
+2023-07-04 22:59:43 INFO  API Testing:221 - Passing URI : /Account/v1/GenerateToken
+2023-07-04 22:59:43 INFO  API Testing:223 - Getting Response Content {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImpzaW5sb3ZlIiwicGFzc3dvcmQiOiJKc2lubG92ZUAhMTU1IiwiaWF0IjoxNjg4NDkxNzgzfQ.mfR7bS8CIAMqUrrUhUKpHrJnd3YZltMlPXDmeX_CLUg","expires":"2023-07-11T17:29:43.394Z","status":"Success","result":"User authorized successfully."}
+2023-07-04 22:59:43 INFO  API Testing:95 - Getting Status Code : 200
+2023-07-04 22:59:45 INFO  API Testing:140 - Getting Status Line HTTP/1.1 200 OK
+2023-07-04 22:59:47 INFO  API Testing:123 - The Content_type is : application/json; charset=utf-8
+2023-07-04 22:59:47 INFO  API Testing:125 - Getting Excel Data : 
+2023-07-04 22:59:47 INFO  API Testing:118 - -----------------End of Scenario-----------------
+2023-07-04 22:59:48 INFO  API Testing:66 - -----------------Start of Scenario-----------------
+2023-07-04 22:59:48 INFO  API Testing:163 - Passing URL : https://bookstore.toolsqa.com
+2023-07-04 22:59:52 INFO  API Testing:221 - Passing URI : /Account/v1/Authorized
+2023-07-04 22:59:52 INFO  API Testing:223 - Getting Response Content true
+2023-07-04 22:59:52 INFO  API Testing:95 - Getting Status Code : 200

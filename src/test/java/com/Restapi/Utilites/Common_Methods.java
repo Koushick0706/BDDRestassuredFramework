@@ -12,8 +12,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Properties;
 
-import javax.xml.parsers.ParserConfigurationException;
-
 import com.Restapi.DataProvider.DataProvider;
 import com.Restapi.InitilizeBaseConfiguration.BaseclassInitilizer;
 import com.Restapi.Step_def.Rest_Step_def_GET;
@@ -24,7 +22,7 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import org.xml.sax.SAXException;
+
 
 import io.restassured.RestAssured;
 import io.restassured.filter.log.RequestLoggingFilter;
@@ -262,7 +260,7 @@ public class Common_Methods {
 	}
 	
 	
-	public void ReadXMLFile(String arg) throws ParserConfigurationException, SAXException, IOException
+	public void ReadXMLFile(String arg) throws IOException
 	{
 		String xmlfiles = "src/test/resources/XML Files/"+arg;
 		try
